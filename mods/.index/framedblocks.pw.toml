@@ -1,0 +1,13 @@
+filename = 'FramedBlocks-9.2.1.jar'
+name = 'FramedBlocks'
+side = 'both'
+
+[download]
+hash = 'e8efc4aa334e6f23e187c1dfb4ac670c6c89a280fdb9c728a9357aa55f760f1922f8389e1e74e7983d5522138c3e70092dc749534e565d4721b04d26c17c64aa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wbgfS34j/versions/UpX1WkNE/FramedBlocks-9.2.1.jar'
+
+[update.modrinth]
+mod-id = 'wbgfS34j'
+version = 'UpX1WkNE'

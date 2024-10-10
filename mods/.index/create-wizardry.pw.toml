@@ -1,0 +1,13 @@
+filename = 'create_wizardry-1.20.1-0.1.2.jar'
+name = 'Create: Wizardry'
+side = 'both'
+
+[download]
+hash = '99ff3243bb30979343bbe015ad8bdc985a44553e51f4c918ceba15d1d53bfeaee6a5237852abe8c07d9eeed81d478b2826b4ec67570f38f616d56754ba4cc8d6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OeGdeWEj/versions/jI2u4E8k/create_wizardry-1.20.1-0.1.2.jar'
+
+[update.modrinth]
+mod-id = 'OeGdeWEj'
+version = 'jI2u4E8k'

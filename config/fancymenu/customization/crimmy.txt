@@ -1,0 +1,107 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1712965475862
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:724f26b0-2503-407a-a6af-812b14a7ba24-1712965475862] = [groups:][instances:]
+}
+
+menu_background {
+  panorama_name = CRimmy
+  background_type = panorama
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+deep_element {
+  orientation = top-left
+  hidden = false
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = ee963a47-d9f8-4c01-9ca4-dbe38859134b1710199027553
+  y = 4
+  height = 19
+  element_type = title_screen_forge_top
+}
+
+deep_element {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 7577b09a-dc26-4bdc-97b7-db9325dde4651710199027554
+  y = 209
+  height = 40
+  element_type = title_screen_branding
+}
+
+deep_element {
+  orientation = top-left
+  hidden = false
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 78e51ed2-4dec-4b14-928b-46e3197199571710199027554
+  y = 231
+  height = 9
+  element_type = title_screen_forge_copyright
+}
+
+deep_element {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 61094e36-e537-4ba9-a3c5-78191e3e6e221710199027554
+  y = 162
+  height = 13
+  element_type = title_screen_realms_notification
+}
+
+deep_element {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 7c787f14-a74c-435e-b2d7-ab2866ef4a3b1710199027554
+  y = 30
+  height = 52
+  element_type = title_screen_logo
+}
+
+deep_element {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e51f9b9e-2c46-4139-a5c7-d5dfc5d497d91710199027554
+  y = 0
+  height = 30
+  element_type = title_screen_splash
+}
+

@@ -1,0 +1,21 @@
+ServerEvents.recipes(event => {
+
+    //Bio Electric generator
+
+    event.recipes.custommachinery.custom_machine("custom_machines:bioelectric_generator", 1)
+    .requireItem("biomancy:nutrient_bar", "input_nutrients")
+    .produceInfusion("kubejs:infuse_nutrient_paste 45", "nutrients")
+    .hide()
+
+    event.recipes.custommachinery.custom_machine("custom_machines:bioelectric_generator", 1)
+    .requireItem("biomancy:nutrient_paste", "input_nutrients")
+    .produceInfusion("kubejs:infuse_nutrient_paste 5", "nutrients")
+    .hide()
+
+    event.recipes.custommachinery.custom_machine("custom_machines:bioelectric_generator", 16)
+    .requireInfusion("kubejs:infuse_nutrient_paste 20", "nutrients")
+    .requireItem("kubejs:energy_cell", "input")
+    .produceItem("kubejs:energy_cell_charged", "output")
+
+
+})

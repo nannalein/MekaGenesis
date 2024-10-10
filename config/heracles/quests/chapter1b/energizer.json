@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "ae2 start"
+  ],
+  "tasks": {
+    "AE2 Charger": {
+      "type": "heracles:item",
+      "item": "ae2:charger",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft a Charger",
+      "icon": {
+        "item": {
+          "id": "ae2:charger",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "AE2 free compass": {
+      "title": "Free compass for the next part",
+      "icon": {
+        "item": {
+          "id": "minecraft:compass",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:compass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Chapter 1b": {
+        "position": [
+          35,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Charger"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

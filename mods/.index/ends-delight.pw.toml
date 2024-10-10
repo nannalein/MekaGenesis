@@ -1,0 +1,13 @@
+filename = 'ends_delight-1.20.1-1.0.1.jar'
+name = "End's Delight"
+side = 'both'
+
+[download]
+hash = 'f4dc06bae12e416d3a89fb796612c67b3354a0e0d4df4a0dc652d17f41773a38046c307b0b5fc2e6c5c52f2e5f19bcb706f6a7e9339c94b5e9b0a7ddb2f87f76'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yHN0njMr/versions/99a5wEsK/ends_delight-1.20.1-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'yHN0njMr'
+version = '99a5wEsK'

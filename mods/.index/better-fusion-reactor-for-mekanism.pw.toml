@@ -1,0 +1,13 @@
+filename = 'BetterFusionReactor-1.20.1-1.4.5.jar'
+name = 'Better Fusion Reactor for Mekanism'
+side = 'both'
+
+[download]
+hash = 'a46803936e52037b2443225acce34a3f09806e5b54003e394812c53c6a041b073a9b6de4f149da9262239dd07cce1ab6d0bf4b4447b9fdac502ee267d510f44b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZUDRV4lN/versions/YSu2e6HI/BetterFusionReactor-1.20.1-1.4.5.jar'
+
+[update.modrinth]
+mod-id = 'ZUDRV4lN'
+version = 'YSu2e6HI'

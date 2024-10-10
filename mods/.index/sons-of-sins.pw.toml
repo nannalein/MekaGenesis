@@ -1,0 +1,13 @@
+filename = 'sons-of-sins-1.20.1-2.1.6.jar'
+name = 'Sons of Sins'
+side = 'both'
+
+[download]
+hash = '1fc8e2c9f5b5fa6e1fe0b84612b28ec5410d981c6d2c4453adb7270ca6fbd938f978b6c26b4b1993e2c9f575b6e4ae620f2b33fa38e3c417c33de7cc38b6099f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/l7YxzukZ/versions/85MERhDl/sons-of-sins-1.20.1-2.1.6.jar'
+
+[update.modrinth]
+mod-id = 'l7YxzukZ'
+version = '85MERhDl'

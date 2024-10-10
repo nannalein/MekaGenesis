@@ -1,0 +1,60 @@
+{
+	"general": {
+		"auto": false,
+		"rate": 23,
+		"gripType": "cgm:two_handed",
+		"maxAmmo": 9,
+		"reloadAmount": 1,
+		"recoilAngle": 20,
+		"recoilKick": 4.2,
+		"recoilAdsReduction": 0.5,
+		"projectileAmount": 12,
+		"alwaysSpread": true,
+		"spread": 12.0
+	},
+	"projectile": {
+		"item": "stabxmodernguns:12gauge_buckshot_slug_shell_360",
+		"visible": false,
+		"gravity": true,
+		"damage": 24,
+		"size": 0.2,
+		"speed": 46,
+		"life": 90
+	},
+	"sounds": {
+		"fire": "stabxmodernguns:item.mossberg500.fire",
+		"reload": "stabxmodernguns:item.mossberg500.reload",
+		"cock": "stabxmodernguns:item.mossberg500.cock",
+		"silencedFire": "stabxmodernguns:item.mossberg500.suppressed"
+	},
+	"display": {
+		"flash": {
+			"yOffset": 4.3,
+			"zOffset": -19
+		}
+	},
+	"modules": {
+		"zoom": {
+			"fovModifier": 0.6,
+			"yOffset": 5,
+			"zOffset": 2
+		},
+		"attachments": {
+			"scope": {
+				"yOffset": 4.8,
+				"zOffset": 7,
+				"scale": 0.7
+			},
+			"barrel": {
+				"yOffset": 4.1,
+				"zOffset": -21,
+				"scale": 0
+			},
+			"stock": {
+				"yOffset": 2.4,
+				"zOffset": 9,
+				"scale": 0
+			}
+		}
+	}
+}

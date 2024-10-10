@@ -1,0 +1,13 @@
+filename = 'JustEnoughMekanismMultiblocks-1.20.1-4.5.jar'
+name = 'Just Enough Mekanism Multiblocks'
+side = 'both'
+
+[download]
+hash = '65a31115fa2c03c07bc9daeeb91a8fd78a9ebf88f028425cc05bacca6c0d1aebacbd5b4977e6fcea3a8c8e144f73540f3908182bc2c0d3e31b5a4ba78855a049'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kRaE85yQ/versions/ZECMfgyR/JustEnoughMekanismMultiblocks-1.20.1-4.5.jar'
+
+[update.modrinth]
+mod-id = 'kRaE85yQ'
+version = 'ZECMfgyR'

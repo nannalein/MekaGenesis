@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "energizer"
+  ],
+  "tasks": {
+    "craft_metorite_compass": {
+      "type": "heracles:item",
+      "item": "ae2:meteorite_compass",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft a metorite compass",
+      "icon": {
+        "item": {
+          "id": "ae2:meteorite_compass",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Chapter 1b": {
+        "position": [
+          36,
+          -56
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:meteorite_compass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Metorite Compass [Optional]"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

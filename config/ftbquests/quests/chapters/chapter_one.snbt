@@ -1,0 +1,303 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_one"
+	group: ""
+	id: "792D15E6B919650F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to my pack!!!! ^w^ In this chapter we will be getting most of the basic minecraft neccesities in order, and also introducing you to a few mods!"]
+			icon: "minecraft:emerald"
+			id: "593D0FFC7722844C"
+			rewards: [{
+				id: "33130A19FFEE335B"
+				item: "alexsdelight:lobster_pasta"
+				title: "A yummy welcome"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "4110A8FC6B671226"
+				title: "Welcome!!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["593D0FFC7722844C"]
+			description: ["You know the deal, go cut a tree down."]
+			hide_dependency_lines: false
+			id: "0F551F93420A6F3A"
+			tasks: [{
+				id: "68B31C3007FA030D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Cut Down a Tree!!"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F551F93420A6F3A"]
+			description: ["Great!! Now that you presumably have tools, you need to seek out some wild animals, or anything hostile and gather their flesh! Go on now you lil' Butcher"]
+			id: "27A119960BC97910"
+			rewards: [{
+				id: "0D1DDB9FADDAF6EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "biomancy:biomancy/root"
+				criterion: ""
+				id: "5D044010313CA19B"
+				type: "advancement"
+			}]
+			title: "murder murder murder murder murder murder murder"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27A119960BC97910"]
+			description: ["Night has fallen, you feel the desire to seek out more exotic matterials"]
+			id: "727F037C6F965E31"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @a run summon minecraft:smallfireball~ ~5 ~"
+				icon: "alexsmobs:cosmic_cod"
+				id: "4559C3010B4DE805"
+				silent: true
+				title: "Dont fuking ask"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4AB0ACB6D16BDC78"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Hey!! That tall man was lookin' at me funny"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27A119960BC97910"]
+			description: ["Some silly hard rocks that you feel are important."]
+			id: "2C2B6C0B3D646A9E"
+			rewards: [{
+				count: 9
+				id: "322F7CED6E21291F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+				id: "4EA9A7B085E2419A"
+				title: "Black Rocks!!"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["727F037C6F965E31"]
+			description: ["You have a devine intervention to create a device of esquisite flesh. this will be the core of two objects of interest."]
+			icon: "biomancy:primordial_core"
+			id: "0B655EC74643C69A"
+			rewards: [{
+				id: "669632390B5424B5"
+				item: {
+					Count: 1b
+					id: "minecraft:white_banner"
+					tag: {
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Color: 3
+									Pattern: "gra"
+								}
+								{
+									Color: 6
+									Pattern: "gru"
+								}
+								{
+									Color: 0
+									Pattern: "biomancy:mascot_base"
+								}
+							]
+							id: "minecraft:banner"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C61FE392D61BD5A"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			title: "A primal vision"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C2B6C0B3D646A9E"]
+			description: [
+				"Going Deeper!!! "
+				""
+				""
+				""
+				""
+				""
+				""
+				"C'mon you know how to build a portal"
+			]
+			icon: "minecraft:netherrack"
+			id: "3805ABA8155D9C6C"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "085470452DA27BE7"
+				type: "dimension"
+			}]
+			title: "Go to the Nether"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B655EC74643C69A"]
+			id: "5DCF3D31BA490B2B"
+			tasks: [{
+				id: "6B17DCA3FDC615CB"
+				item: {
+					Count: 1b
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Greedy Butcher"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DCF3D31BA490B2B"]
+			description: [
+				"With your new tool at your disposal, you find that killing enimies will now drop extra loot than before. So you now find yourself harvesting fangs and claws from predatorial animals for your own devices."
+				""
+				"Drops from: Cats, wolves, foxes, bears, bats, and more"
+			]
+			icon: "biomancy:mob_fang"
+			id: "571A8886D2A19AA3"
+			tasks: [{
+				count: 2L
+				id: "143929458DCCEDF0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "biomancy:fangs"
+					}
+				}
+				title: "Any #biomancy:fangs"
+				type: "item"
+			}]
+			title: " Collect Sharp Pointy Things"
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3805ABA8155D9C6C"]
+			description: ["Dwelve deeper into this firey hell scape to find a fortress with new matterials to tinker with for your curious mind."]
+			icon: "minecraft:nether_wart"
+			id: "4BC0F4021085D120"
+			rewards: [{
+				count: 4
+				id: "18EE1A5A506B953E"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C5AA34E953A79DF"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			title: "Find a Fortress"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BC0F4021085D120"]
+			description: ["With your new found matterials, (A brewing stand, warts, and glistering melon you can now craft healing pots)"]
+			id: "3435A55F0D59C9A8"
+			tasks: [{
+				id: "71FA33DCEE75E61D"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			title: "Brew a potion of healing"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3435A55F0D59C9A8"
+				"571A8886D2A19AA3"
+			]
+			description: ["This delectable device is a mischevous being, It takes offerings in the forms of raw meat and food, and requires healing items to do its magic."]
+			id: "32FB1F29D2068B10"
+			tasks: [{
+				id: "7FDFA61D515C4B63"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32FB1F29D2068B10"]
+			id: "37FF164DB5357932"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "177ED0D1014A1359"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			title: "Chapter Two"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["593D0FFC7722844C"]
+			hide_dependency_lines: true
+			id: "3B703548D2FE7CAA"
+			tasks: [{
+				id: "05CE4335DE3C6781"
+				item: "cookingforblockheads:white_kitchen_floor"
+				type: "item"
+			}]
+			title: "[Optional] Kitchen!!!"
+			x: -1.5d
+			y: -2.0d
+		}
+	]
+	title: "Chapter One"
+}

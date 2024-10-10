@@ -1,0 +1,13 @@
+filename = 'majruszs-enchantments-forge-1.20.1-1.10.7.jar'
+name = "Majrusz's Enchantments"
+side = 'both'
+
+[download]
+hash = 'abed4bd00d5e532a433c41527a9548e7883160f74bf1213d887e2356a2a79f9610607d953cbd206434ad8f5f0582d0f12ff0c5a3fa5a0c37e30ea1c961204517'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jJthQvHv/versions/TU4EgPI5/majruszs-enchantments-forge-1.20.1-1.10.7.jar'
+
+[update.modrinth]
+mod-id = 'jJthQvHv'
+version = 'TU4EgPI5'

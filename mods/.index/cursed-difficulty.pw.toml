@@ -1,0 +1,13 @@
+filename = 'Cursed-1.4.3.jar'
+name = 'Cursed Difficulty'
+side = 'both'
+
+[download]
+hash = '1fa87fdb78af5c540ce312092f33eb7487dff32bce06a2f36e58f648fd2f0794ab13e294b11fd5f7b568fe712e766cc044a6905b173aa26631a028645f975b51'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OZDetUyq/versions/pZli3ZDO/Cursed-1.4.3.jar'
+
+[update.modrinth]
+mod-id = 'OZDetUyq'
+version = 'pZli3ZDO'

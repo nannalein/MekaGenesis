@@ -1,0 +1,13 @@
+filename = 'drippyloadingscreen_forge_2.2.4_MC_1.20.1.jar'
+name = 'Drippy Loading Screen'
+side = 'client'
+
+[download]
+hash = '123f9074770977457df1949784ffbec882ab8066b8cf6cd0f663d787bf7c726965d0bc23fab6cafafd07640f8cf6314ac15bf36f746ba2740204a507f4c951cc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/v3CYg2V9/versions/KE14rbIp/drippyloadingscreen_forge_2.2.4_MC_1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'v3CYg2V9'
+version = 'KE14rbIp'

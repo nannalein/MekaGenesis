@@ -1,0 +1,13 @@
+filename = 'betterfarmerscombat-1.2-1.20.1.jar'
+name = "Better Farmer's Combat"
+side = 'both'
+
+[download]
+hash = '2b242b312c9e3e48a259c310ba8ebc7cfb24e618'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5194818
+project-id = 923854

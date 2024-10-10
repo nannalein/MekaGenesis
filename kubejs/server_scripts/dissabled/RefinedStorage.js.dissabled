@@ -1,0 +1,55 @@
+//Changing refined storage
+
+ServerEvents.recipes(event => {
+
+event.remove({output: "refinedstorage:quartz_enriched_iron"});
+
+
+event.custom({"type":"biomancy:bio_forging",
+"bio_forge_tab":"biomancy:misc",
+"ingredients":
+[
+{"count":12,"item":"minecraft:iron_nugget"},
+{"count":3,"item":"biomancy:bone_fragments"},
+{"item":"minecraft:quartz"}
+],
+"nutrientsCost":1,"result":{"count": 3, "item": "refinedstorage:quartz_enriched_iron"}});
+
+
+event.custom({"type":"biomancy:bio_forging",
+"bio_forge_tab":"biomancy:misc",
+"ingredients":
+[
+{"count":4,"item":"refinedstorage:quartz_enriched_iron"},
+{"count":6,"item":"biomancy:mineral_fragment",}
+],
+"nutrientsCost":1,"result":{"count": 1, "item": "refinedstorage:machine_casing"}});
+
+
+event.remove({output: "refinedstorage:raw_advanced_processor"});
+event.remove({output: "refinedstorage:raw_basic_processor"});
+event.remove({output: "refinedstorage:raw_improved_processor"});
+
+
+event.custom({"type":"biomancy:bio_forging",
+"bio_forge_tab":"biomancy:misc",
+"ingredients":
+[
+{"count":1,"item":"refinedstorage:quartz_enriched_iron"},
+{"count":1,"item":"refinedstorage:silicon"},
+{"count":3,"item":"born_in_chaos_v1:diamond_termite_shard"}
+],
+"nutrientsCost":1,"result":{"count": 1, "item": "refinedstorage:advanced_processor"}});
+
+
+event.custom({"type":"biomancy:bio_forging",
+"bio_forge_tab":"biomancy:misc",
+"ingredients":
+[
+{"count":1,"item":"refinedstorage:quartz_enriched_iron"},
+{"count":1,"item":"refinedstorage:silicon"},
+{"count":3,"item":"minecraft:gold_nugget"}
+],
+"nutrientsCost":1,"result":{"count": 1, "item": "refinedstorage:improved_processor"}});
+
+})

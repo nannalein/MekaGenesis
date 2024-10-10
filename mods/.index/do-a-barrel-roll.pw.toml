@@ -1,0 +1,13 @@
+filename = 'do_a_barrel_roll-forge-3.5.4+1.20.1.jar'
+name = 'Do a Barrel Roll'
+side = 'both'
+
+[download]
+hash = 'b80a7bf08a708fcade8f0baf1fc998939172fb89f9f48b1fb3d238083f4315d60902c5ad9ef1ddbcde1ca98835e90a96b3fc372776ba6f81ca88b7f648ce79a2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6FtRfnLg/versions/jxec8n0p/do_a_barrel_roll-forge-3.5.4%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = '6FtRfnLg'
+version = 'jxec8n0p'

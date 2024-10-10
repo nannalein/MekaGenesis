@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "info_check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "ae2_guidebook": {
+      "icon": {
+        "item": {
+          "id": "ae2:guide",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ae2:guide",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "/4/This quest tree is in no way a comprehensive guide of AE2, so here is a free official guide to AE2./4/"
+    ],
+    "groups": {
+      "Chapter 1b": {
+        "position": [
+          -56,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "design_decor:warning_sign",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Info"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

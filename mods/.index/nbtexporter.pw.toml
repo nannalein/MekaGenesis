@@ -1,0 +1,13 @@
+filename = 'nbtexporter-1.20-1.2.jar'
+name = 'NBT Exporter'
+side = 'client'
+
+[download]
+hash = 'e08d9c0bbf4d55596166313d6b38fe7ac3847fcb6c15b2a837f4077dafc6520f9eee3f06b1f9310dbab6b3b2c978babde68b4341aa5db781fe64222e81ff7cc8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wkOIQwq8/versions/OTeIAcwL/nbtexporter-1.20-1.2.jar'
+
+[update.modrinth]
+mod-id = 'wkOIQwq8'
+version = 'OTeIAcwL'

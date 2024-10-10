@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "find metorite"
+  ],
+  "tasks": {
+    "break_cube": {
+      "title": "Break the Mysterious Cube",
+      "icon": {
+        "item": {
+          "id": "ae2:mysterious_cube",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "ae2:main/presses"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "diamond": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Chapter 1b": {
+        "position": [
+          -24,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "#ae2:inscriber_presses",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Aquire Presses"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

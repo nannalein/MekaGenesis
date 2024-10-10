@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "ae2 start"
+  ],
+  "tasks": {
+    "find_metorite": {
+      "title": "Find a Metorite",
+      "icon": {
+        "item": {
+          "id": "ae2:sky_stone_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "ae2:meteorite",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Chapter 1b": {
+        "position": [
+          0,
+          -56
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:sky_stone_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Find a Metorite"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

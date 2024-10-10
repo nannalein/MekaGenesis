@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "find metorite"
+  ],
+  "tasks": {
+    "certus_quartz": {
+      "type": "heracles:item",
+      "item": "#ae2:all_certus_quartz",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "Grow Certus Crystals",
+      "icon": {
+        "item": "#ae2:all_certus_quartz",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "certus_quartz_reward": {
+      "item": {
+        "id": "ae2:certus_quartz_crystal",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "ooh shiny!"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Chapter 1b": {
+        "position": [
+          24,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:certus_quartz_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Grow Certus Quartz Crytals"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

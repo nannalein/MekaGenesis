@@ -1,0 +1,13 @@
+filename = 'artifacts-forge-9.4.2.jar'
+name = 'Artifacts'
+side = 'both'
+
+[download]
+hash = 'eaffdbcac8af7ea1d407e7ac8e595d49805ac54b1bc0b1896014c22bde77211b8d53b9ce15a33c98da1dd1d93f95dc8cade9f61dfc3c79316234e5f8b121f38c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/P0Mu4wcQ/versions/zdWM9d47/artifacts-forge-9.4.2.jar'
+
+[update.modrinth]
+mod-id = 'P0Mu4wcQ'
+version = 'zdWM9d47'

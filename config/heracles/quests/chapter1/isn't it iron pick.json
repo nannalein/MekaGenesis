@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "get wood"
+  ],
+  "tasks": {
+    "Iron Tools": {
+      "advancements": [
+        "minecraft:story/iron_tools"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Chapter 1": {
+        "position": [
+          -80,
+          -136
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Isn't It Iron Pick"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

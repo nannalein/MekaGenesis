@@ -1,0 +1,13 @@
+filename = 'letsdo-meadow-forge-1.3.8.jar'
+name = 'Meadow'
+side = 'both'
+
+[download]
+hash = '46442cd65e76cef06f3cadfc10e08923ec8856892b8c55f4357344d4eba603bbbb77be206a151fda06cbc5f2ea10cea2c6e5191e9ec9ac52ee3e371e4b633749'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ra7o6Sl7/versions/v1hn114Z/letsdo-meadow-forge-1.3.8.jar'
+
+[update.modrinth]
+mod-id = 'ra7o6Sl7'
+version = 'v1hn114Z'

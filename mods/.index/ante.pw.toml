@@ -1,0 +1,13 @@
+filename = 'AnvilNeverTooExpensive-1.20.1-1.1.jar'
+name = 'Anvil Never Too Expensive'
+side = 'both'
+
+[download]
+hash = 'd706fa313fa77862ac3b45976168deea04412b3e475f4c981aedf44b3209d8bd4f41d94e1b60ff7972553dd66ade2faabd2a704244250b7987b2ef59c100b3ef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TEOa2X8B/versions/stzt1jos/AnvilNeverTooExpensive-1.20.1-1.1.jar'
+
+[update.modrinth]
+mod-id = 'TEOa2X8B'
+version = 'stzt1jos'

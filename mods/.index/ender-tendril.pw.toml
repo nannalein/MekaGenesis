@@ -1,0 +1,13 @@
+filename = 'ender-tendril-1.20.1-1.6.1.jar'
+name = 'Ender Tendril'
+side = 'both'
+
+[download]
+hash = '819c05a4923123244a6233b7376c9ff33989629b306e7c4bd951becff33a7af38a91af7ef3b46dce5c1bf6a7c2923541dc36c8221a41afe93946d8d7a641adef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XV7FbTAa/versions/NPtov9ku/ender-tendril-1.20.1-1.6.1.jar'
+
+[update.modrinth]
+mod-id = 'XV7FbTAa'
+version = 'NPtov9ku'

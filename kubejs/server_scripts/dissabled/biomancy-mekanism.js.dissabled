@@ -1,0 +1,320 @@
+ServerEvents.recipes(event => {
+
+    //Nuking Mekanism Generators
+
+    event.remove({output:"mekanism:fuelwood_heater"});
+    event.remove({output:"mekanismgenerators:heat_generator"});
+    event.remove({output:"mekanismgenerators:solar_generator"});
+    event.remove({output:"mekanismgenerators:advanced_solar_generator"});
+    event.remove({output:"mekanismgenerators:gas_burning_generator"});
+    event.remove({output:"mekanismgenerators:bio_generator"});
+    event.remove({output:"mekanismgenerators:wind_generator"});
+
+    //Modifying Mekanism 
+
+        event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:components",
+    "ingredients":
+    [
+    {"count":16,"tag":"forge:nuggets/iron"},
+    {"count":6,"item":"biomancy:bone_fragments"}
+
+    ],
+    "nutrientsCost":1,"result":{"count": 3, "item": "kubejs:alloy_bone"}});
+
+
+    event.remove({output:"mekanism:steel_casing"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:components",
+    "ingredients":
+    [
+    {"count":8,"tag":"quark:shards"},
+    {"count":18,"item":"mekanism:nugget_steel"},
+    {"count":6,"item":"mekanism:nugget_osmium"}
+
+    ],
+    "nutrientsCost":1,"result":{"count": 1, "item": "mekanism:steel_casing"}});
+
+
+
+    event.remove({output:"mekanism:metallurgic_infuser"});
+    event.remove({input:"mekanism:metallurgic_infuser"});
+
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [,
+    {"count":16,"tag":"forge:nuggets/iron"},
+    {"count":8,"tag":"forge:nuggets/osmium"},
+    {"count":8,"item":"minecraft:cobblestone"},
+    {"count":4,"tag":"forge:fuels/bio"}
+    ],
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanismgenerators:bio_generator"}});
+
+
+
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:basic_control_circuit"},
+    {"count":8,"item":"minecraft:cobblestone"},
+    {"count":4,"tag":"minecraft:planks"}
+    ],
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:fuelwood_heater"}});
+
+
+
+    event.remove({output:"mekanism:teleporter"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":4,"item":"mekanism:basic_control_circuit"},
+    {"count":1,"item":"mekanism:teleportation_core"}
+    ],
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:teleporter"}});
+
+
+
+    event.remove({output:"mekanism:teleporter_frame"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":48,"item":"mekanism:nugget_refined_obsidian"},
+    {"count":6,"item":"mekanism:nugget_refined_glowstone"}
+    ],
+    "nutrientsCost":1,"result":{"count": 4, "item": "mekanism:teleporter_frame"}});
+
+
+
+    event.remove({output:"mekanism:personal_barrel"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:misc",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"minecraft:barrel"},
+    {"count":1,"item":"mekanism:basic_control_circuit"}
+    ],
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:personal_barrel"}});
+
+
+
+    event.remove({output:"mekanism:personal_chest"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:misc",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"minecraft:chest"},
+    {"count":1,"item":"mekanism:basic_control_circuit"}
+    ],
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:personal_chest"}});
+
+
+
+    event.remove({output:"mekanism:enrichment_chamber"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:basic_control_circuit"},
+    {"count":2,"tag":"forge:nuggets/iron"},
+    {"count":4,"item":"minecraft:redstone"}
+    ],
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:enrichment_chamber"}});
+
+
+
+    event.remove({output:"mekanism:chemical_crystallizer"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:ultimate_control_circuit"},
+    {"count":2,"tag":"forge:gems/fluorite"},
+    {"count":4,"tag":"forge:ingots/refined_obsidian"}
+    ],
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:chemical_crystallizer"}});
+
+
+
+    event.remove({output:"mekanism:chemical_crystallizer"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:ultimate_control_circuit"},
+    {"count":2,"tag":"forge:gems/fluorite"},
+    {"count":4,"tag":"forge:ingots/refined_obsidian"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:chemical_crystallizer"}});
+
+
+
+    event.remove({output:"mekanism:chemical_dissolution_chamber"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:ultimate_control_circuit"},
+    {"count":2,"item":"mekanism:basic_chemical_tank"},
+    {"count":4,"tag":"forge:ingots/refined_obsidian"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:chemical_dissolution_chamber"}});
+
+
+
+    event.remove({output:"mekanism:chemical_infuser"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:basic_control_circuit"},
+    {"count":2,"item":"mekanism:basic_chemical_tank"},
+    {"count":4,"tag":"mekanism:alloys/infused"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:chemical_infuser"}});
+
+
+
+    event.remove({output:"mekanism:chemical_injection_chamber"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:basic_control_circuit"},
+    {"count":2,"item":"mekanism:basic_chemical_tank"},
+    {"count":4,"tag":"mekanism:alloys/infused"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:chemical_injection_chamber"}});
+
+
+
+    event.remove({output:"mekanism:chemical_oxidizer"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:basic_control_circuit"},
+    {"count":1,"item":"mekanism:basic_chemical_tank"},
+    {"count":1,"tag":"mekanism:personal_storage"},
+    {"count":4,"tag":"mekanism:alloys/infused"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:chemical_oxidizer"}});
+
+
+
+    event.remove({output:"mekanism:chemical_washer"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:basic_control_circuit"},
+    {"count":1,"item":"mekanism:basic_chemical_tank"},
+    {"count":1,"tag":"mekanism:personal_storage"},
+    {"count":4,"tag":"mekanism:alloys/infused"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:chemical_washer"}});
+
+
+    event.remove({output:"mekanism:combiner"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"mekanism:elite_control_circuit"},
+    {"count":2,"tag":"forge:cobblestone/normal"},
+    {"count":4,"tag":"mekanism:alloys/reinforced"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:combiner"}});
+
+
+
+    event.remove({output:"mekanism:crusher"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":2,"item":"minecraft:redstone"},
+    {"count":2,"tag":"forge:obsidian"},
+    {"count":4,"item":"kubejs:alloy_bone"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:crusher"}});
+
+
+    event.remove({output:"mekanism:dimensional_stabilizer"})
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:misc",
+    "ingredients":
+    [
+    {"count":1,"item":"mekanism:steel_casing"},
+    {"count":1,"item":"mekanism:ultimate_tier_installer"},
+    {"count":36,"item":"minecraft:diamond"},
+    {"count":4,"item":"mekanism:ultimate_control_circuit"}
+    ],  
+    "nutrientsCost":1,"result":{"count": 1, "item": "mekanism:dimensional_stabilizer"}});
+
+
+
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":2,"item":"minecraft:redstone"},
+    {"count":2,"item":"minecraft:furnace"},
+    {"count":4,"item":"kubejs:alloy_bone"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:metallurgic_infuser"}});
+
+
+
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"minecraft:furnace"},
+    {"count":8,"tag":"forge:fuels/bio"},
+    {"count":4,"item":"kubejs:alloy_bone"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanismgenerators:bio_generator"}});
+
+
+
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"minecraft:furnace"},
+    {"count":8,"tag":"forge:planks"},
+    {"count":4,"item":"kubejs:alloy_bone"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanism:fuelwood_heater"}});
+
+
+
+    event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:machines",
+    "ingredients":
+    [
+    {"count":1,"item":"minecraft:furnace"},
+    {"count":4,"tag":"c:copper_ingots"},
+    {"count":12,"item":"kubejs:alloy_bone"}
+    ],  
+    "nutrientsCost":10,"result":{"count": 1, "item": "mekanismgenerators:module_geothermal_generator_unit"}});
+
+})

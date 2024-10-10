@@ -1,0 +1,13 @@
+filename = 'mekanism-ad-astra-ores-1.0.0.jar'
+name = 'Mekanism: Ad Astra Ores'
+side = 'both'
+
+[download]
+hash = '2bc2383e4e14a4698efb72aeaa4270d3f0077ff43c74444781042021794ccae38b50a3d4ab7e0d727c190935d3ad8ff4c95bc0824f6ad1db962092b0989a4747'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KQwxMOPD/versions/6ETQVbWX/mekanism-ad-astra-ores-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'KQwxMOPD'
+version = '6ETQVbWX'

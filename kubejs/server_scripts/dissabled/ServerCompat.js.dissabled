@@ -1,0 +1,175 @@
+
+ServerEvents.recipes(event => {
+	
+	// Removing a shitload of BS
+
+//Making guns signifigantly hardere to get
+
+	event.remove({output:"cgm:workbench"})
+
+		event.shaped("cgm:workbench", [
+		  'AAA',
+		  'DPD',
+		  'DCD'
+		], {
+		  A: "mekanism:alloy_atomic",
+		  C: "mekanism:pellet_polonium",
+		  D: "born_in_chaos_v1:dark_metal_ingot",
+		  P: "mekanism:pellet_polonium"
+		});
+
+	event.shapeless(
+		"born_in_chaos_v1:puddleofintoxication",
+		["born_in_chaos_v1:intoxicating_decoction",
+		"minecraft:dragon_breath",]);
+
+	//Feathers from netherite because fuck you
+
+	event.shapeless("64x minecraft:feather",[
+	"minecraft:netherite_ingot",
+	"minecraft:netherite_ingot",
+	"minecraft:netherite_ingot",]);
+
+	event.custom(
+		{"type":"mekanism:crushing",
+		"input":{"ingredient":{"item":"supplementaries:flax"}},
+		"output":{"item":"3x minecraft:string"}}
+	)
+
+	//A middle finger to steven
+
+	event.remove({output:"sophisticatedbackpacks:inception_upgrade"})
+	event.shaped("sophisticatedbackpacks:inception_upgrade", [
+		'ANA',
+		'NUN',
+		'ANA'
+	  ], {
+		A: "mekanism:pellet_antimatter",
+		N: "minecraft:nether_star",
+		U: "sophisticatedbackpacks:upgrade_base"
+	  });
+
+
+	  //Making Gauss drone Cheaper
+
+	  event.remove({output:"k_turrets:gauss_bullet"})
+	  event.shaped("16x k_turrets:gauss_bullet", [
+		'AAA',
+		'AUA',
+		'AUA'
+	  ], {
+		A: "minecraft:iron_nugget",
+		U: "k_turrets:titanium_ingot"
+	  });
+	  event.remove({output: "k_turrets:gauss_turret_item"})
+	  event.shaped("k_turrets:gauss_turret_item", [
+		'SCS',
+		'CTC',
+		'SCS'
+	  ], {
+		S: "#forge:ingots/steel",
+		C: "#forge:ingots/copper",
+		T: "k_turrets:bullet_turret_item"
+	  });
+
+	//Changing the Compact Machines to be mekanism friendly
+	event.remove({output:"compactmachines:personal_shrinking_device"})
+	event.remove({output:"compactmachines:wall"});
+	event.remove({output:"compactmachines:machine_tiny"});
+	event.remove({output:"compactmachines:machine_small"});
+	event.remove({output:"compactmachines:machine_normal"});
+	event.remove({output:"compactmachines:machine_large"});
+	event.remove({output:"compactmachines:machine_maximum"});
+	event.remove({output:"compactmachines:machine_giant"});
+	event.shaped("compactmachines:personal_shrinking_device", [
+		' E ',
+		'ATA',
+		' E '
+	], {
+	  E: "mekanism:elite_control_circuit",
+	  A: "mekanism:alloy_reinforced",
+	  T: "mekanism:portable_teleporter"
+	});
+
+	event.shaped("16x compactmachines:wall", [
+		'SOS',
+		'O O',
+		'SOS'
+	],{
+		S: "#forge:dusts/steel",
+		O: "#forge:dusts/obsidian"
+	});
+
+	event.shaped("compactmachines:machine_tiny", [
+		'LCL',
+		'CIC',
+		'LCL'
+	  ], {
+		L: "compactmachines:wall",
+		C: "mekanism:basic_control_circuit",
+		I: "mekanism:teleportation_core"
+	  });
+
+	event.shaped("compactmachines:machine_small", [
+		'CWC',
+		'WMW',
+		'CWC'
+	], {
+	  C:"mekanism:advanced_control_circuit",
+	  W:"compactmachines:wall",
+	  M:"compactmachines:machine_tiny"
+	});
+
+	event.shaped("compactmachines:machine_normal", [
+		'CWC',
+		'WMW',
+		'CWC'
+	], {
+	  C:"mekanism:elite_control_circuit",
+	  W:"compactmachines:wall",
+	  M:"compactmachines:machine_small"
+	});
+
+	event.shaped("compactmachines:machine_large", [
+		'CWC',
+		'WMW',
+		'CWC'
+	], {
+	  C:"mekanism:ultimate_control_circuit",
+	  W:"compactmachines:wall",
+	  M:"compactmachines:machine_normal"
+	});
+
+	event.shaped("compactmachines:machine_giant", [
+		'CWC',
+		'WMW',
+		'CWC'
+	], {
+	  C:"mekanism:hdpe_sheet",
+	  W:"mekanism:pellet_polonium",
+	  M:"compactmachines:machine_large"
+	});
+
+    event.custom({"type":"mekanism:nucleosynthesizing",
+    "duration":1000,"gasInput":{"amount":4,"gas":"mekanism:antimatter"},
+    "itemInput":{"ingredient":{"item":"compactmachines:machine_giant"}},
+    "output":{"item":"compactmachines:machine_maximum"}});
+
+	event.shaped("compactmachines:machine_maximum", [
+		' W ',
+		'WMW',
+		' W '
+	], {
+	  W:"mekanism:pellet_antimatter",
+	  M:"compactmachines:machine_giant"
+	});
+
+	//flashlight recipie ugly
+
+	//making the quantum entangleporter cheaper
+
+	
+
+	
+})
+

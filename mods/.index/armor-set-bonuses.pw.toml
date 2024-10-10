@@ -1,0 +1,13 @@
+filename = 'spacecatasb-forge-20.13.1.jar'
+name = 'Armor Set Bonuses'
+side = 'both'
+
+[download]
+hash = '3b851436056682df92907023ad29a12988e619b32071d8a6083d4ffcccfe708c601a402d93f2168908881f8bb86a87e45764159f7b6fc6ca363a56399ef2aa2f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jfBHPmBR/versions/lmjUtn0J/spacecatasb-forge-20.13.1.jar'
+
+[update.modrinth]
+mod-id = 'jfBHPmBR'
+version = 'lmjUtn0J'

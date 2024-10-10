@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_two"
+	group: ""
+	id: "078AC9B893386686"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37FF164DB5357932"]
+			description: ["Congrats, you have done it. you have become god. you created life. now we get to see what you can do with it!"]
+			icon: "biomancy:living_flesh"
+			id: "7C4405EC2F09F8CC"
+			rewards: [{
+				count: 6
+				id: "1A35DDCB64964AB2"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "1779C719201DA10A"
+				title: "Welcome To Chapter Two"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C4405EC2F09F8CC"]
+			description: ["The Bio Forge is wonderous crafting aperatus, designed to be more percice than the hands of its creator, And the decocomposer, A device to reduce matterials to their basic componets for use in the Bio Forge. But just like us they need food, they are living and breathing afterall. You can craft these two from the fangs, and claws of more predetorial animals"]
+			icon: "biomancy:bio_forge"
+			id: "73825A7B642EA23F"
+			rewards: [{
+				count: 10
+				id: "62DE626CFA20F8CD"
+				item: "biomancy:nutrient_paste"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0753704F4532B900"
+					item: "biomancy:bio_forge"
+					type: "item"
+				}
+				{
+					id: "4F4ECD71D12C12D5"
+					item: "biomancy:decomposer"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["73825A7B642EA23F"]
+			description: ["Congrats! we now have a stomach to digest our food for us and our machines. Digesting will always be more efficient that putting in food by itself."]
+			icon: "biomancy:nutrient_paste"
+			id: "1AF378FF25234E1B"
+			tasks: [{
+				id: "747807912A866B52"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			title: "FOOOD!"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1AF378FF25234E1B"]
+			description: ["For you to start with anything complex you are going to need to find out how to turn that bio-power into power-power and this machine does just that. However it only accepts nutrient paste as fuel, so get digesting!"]
+			id: "1B3E412CE40289B6"
+			tasks: [{
+				id: "06845C00E5EF2B7C"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custom_machines:bioelectric_generator"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+	]
+	title: "Chapter Two"
+}

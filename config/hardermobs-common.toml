@@ -1,0 +1,10 @@
+#Block range at which mobs start following you - requires MC restart after changing
+#Range: 1.0 ~ 256.0
+hostileFollowRadius = 128.0
+#Hostile mob health multiplier - requires MC restart after changing
+#Range: 0.10000000149011612 ~ 3.0
+healthMultiplier = 1.5
+#Hostile mob speed multiplier - requires MC restart after changing
+#Range: 0.10000000149011612 ~ 2.0
+speedMultiplier = 1.5
+

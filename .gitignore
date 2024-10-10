@@ -25,3 +25,4 @@ patchouli_data.json
 rhino.local.properties
 .qmenu_opened.marker
 fabricloader.log
+.vscode/settings.json

@@ -22,9 +22,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | remove | ResourceLocation, ResourceLocation[] |  | void | ✘ |
 | getDisplays |  |  | DisplayRegistry | ✘ |
 | getCategories |  |  | CategoryRegistry | ✘ |
-| getCategoryIds |  |  | Collection<ResourceLocation> | ✘ |
 | getDisplaysFor | ResourceLocation |  | List<?> | ✘ |
 | removeFromAll | ResourceLocation[] |  | void | ✘ |
+| getCategoryIds |  |  | Collection<ResourceLocation> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

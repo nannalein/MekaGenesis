@@ -36,15 +36,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | scale | float, float |  | void | ✘ |
 | scale | float |  | void | ✘ |
 | text | Component, int, int, int, boolean |  | void | ✘ |
-| translate | double, double |  | void | ✘ |
 | getVariables |  |  | VariableSet | ✘ |
-| rawText | FormattedCharSequence, int, int, int, boolean |  | void | ✘ |
+| translate | double, double |  | void | ✘ |
 | rectangle | float, float, float, float, float, int, float, float, float, float |  | void | ✘ |
 | rectangle | float, float, float, float, float, int |  | void | ✘ |
-| alignX | float, float, AlignMode |  | float | ✘ |
-| rotateRad | float |  | void | ✘ |
+| rawText | FormattedCharSequence, int, int, int, boolean |  | void | ✘ |
 | alignY | float, float, AlignMode |  | float | ✘ |
 | rotateDeg | float |  | void | ✘ |
+| rotateRad | float |  | void | ✘ |
+| alignX | float, float, AlignMode |  | float | ✘ |
 | blend | boolean |  | void | ✘ |
 | scale | float, float, float |  | void | ✘ |
 | end |  |  | void | ✘ |
@@ -53,24 +53,24 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | push |  |  | void | ✘ |
 | pop |  |  | void | ✘ |
 | translate | double, double, double |  | void | ✘ |
-| bindTextureForSetup | ResourceLocation |  | void | ✘ |
-| vertex | Matrix4f, float, float, float, int |  | void | ✘ |
 | vertex | Matrix4f, float, float, float, int, float, float |  | void | ✘ |
+| vertex | Matrix4f, float, float, float, int |  | void | ✘ |
 | setShaderColor | float, float, float, float |  | void | ✘ |
 | setShaderTexture | ResourceLocation |  | void | ✘ |
-| beginQuads | boolean |  | void | ✘ |
-| beginQuads | VertexFormat |  | void | ✘ |
-| multiplyWithMatrix | Matrix4f |  | void | ✘ |
-| setShaderInstance | Supplier<ShaderInstance> |  | void | ✘ |
+| bindTextureForSetup | ResourceLocation |  | void | ✘ |
 | getMatrix |  |  | Matrix4f | ✘ |
+| multiplyWithMatrix | Matrix4f |  | void | ✘ |
+| beginQuads | VertexFormat |  | void | ✘ |
+| beginQuads | boolean |  | void | ✘ |
+| setShaderInstance | Supplier<ShaderInstance> |  | void | ✘ |
 | resetShaderColor |  |  | void | ✘ |
 | setPositionColorTextureShader |  |  | void | ✘ |
 | setPositionColorShader |  |  | void | ✘ |
 | getEntity |  |  | Entity | ✘ |
 | getPlayer |  |  | LocalPlayer | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -92,15 +92,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -108,6 +99,15 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `Object exit(Object var0)`

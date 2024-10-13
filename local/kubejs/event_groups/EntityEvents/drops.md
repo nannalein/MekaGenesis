@@ -24,8 +24,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getEntity |  |  | Entity | ✘ |
 | addDrop | ItemStack, float |  | ItemEntity | ✘ |
 | addDrop | ItemStack |  | ItemEntity | ✘ |
-| getDrops |  |  | List<ItemEntity> | ✘ |
 | getLootingLevel |  |  | int | ✘ |
+| getDrops |  |  | List<ItemEntity> | ✘ |
 | isRecentlyHit |  |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |

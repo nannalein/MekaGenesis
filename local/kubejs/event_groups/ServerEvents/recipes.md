@@ -37,25 +37,25 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | stage | RecipeFilter, String |  | void | ✘ |
 | printTypes |  |  | void | ✘ |
 | custom | JsonObject |  | RecipeJS | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
 | addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
 | replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
 | replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
 | customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
+| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| runInParallel | Callable<T> |  | T | ✔ |
 | runInParallel | Runnable |  | void | ✔ |
-| printAllTypes |  |  | void | ✘ |
-| printExamples | String |  | void | ✘ |
+| runInParallel | Callable<T> |  | T | ✔ |
+| countRecipes | RecipeFilter |  | int | ✘ |
 | findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
 | findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
 | forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
 | setItemErrors | boolean |  | void | ✘ |
+| printAllTypes |  |  | void | ✘ |
+| printExamples | String |  | void | ✘ |
 | recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| handler$bkd000$sliceanddice$injectRecipes | RecipeManager, Map, CallbackInfo |  | void | ✘ |
+| handler$cbp000$sliceanddice$injectRecipes | RecipeManager, Map, CallbackInfo |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

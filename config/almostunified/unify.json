@@ -5,6 +5,7 @@
     "biomancy",
     "crafttweaker",
     "create",
+    "create_new_age",
     "thermal",
     "immersiveengineering",
     "mekanism",
@@ -20,6 +21,7 @@
   ],
   "tags": [
     "forge:nuggets/{material}",
+    "forge:oil",
     "forge:fuels/bio",
     "forge:dusts/{material}",
     "forge:gears/{material}",

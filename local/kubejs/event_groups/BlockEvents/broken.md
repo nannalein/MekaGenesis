@@ -23,14 +23,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getEntity |  |  | Entity | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| setXp | int |  | void | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getXp |  |  | int | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| setXp | int |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -43,14 +43,19 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `Entity getEntity()`
+- `BlockContainerJS getBlock()`
+```
+The block that was broken.
+```
+
+- `LivingEntity getEntity()`
 ```
 The player that broke the block.
 ```
 
-- `BlockContainerJS getBlock()`
+- `int getXp()`
 ```
-The block that was broken.
+The experience dropped by the block. Always `0` on Fabric.
 ```
 
 - `void setXp(int var0)`
@@ -62,11 +67,6 @@ The block that was broken.
 Sets the experience dropped by the block. Only works on Forge.
 ```
 
-- `int getXp()`
-```
-The experience dropped by the block. Always `0` on Fabric.
-```
-
 - `void addGameStage(String var0)`
 
   Parameters:
@@ -76,15 +76,6 @@ The experience dropped by the block. Always `0` on Fabric.
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -92,6 +83,15 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `Object exit(Object var0)`

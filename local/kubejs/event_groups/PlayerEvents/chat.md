@@ -30,12 +30,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getComponent |  |  | Component | ✘ |
 | setMessage | Component |  | void | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
-| setComponent | Component |  | void | ✘ |
 | getUsername |  |  | String | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| setComponent | Component |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -72,6 +72,11 @@ Sets the message that the player sent.
 Gets the player that sent the message.
 ```
 
+- `String getUsername()`
+```
+Gets the username of the player that sent the message.
+```
+
 - `void setComponent(Component var0)`
 
   Parameters:
@@ -79,11 +84,6 @@ Gets the player that sent the message.
 
 ```
 Sets the message that the player sent.
-```
-
-- `String getUsername()`
-```
-Gets the username of the player that sent the message.
 ```
 
 - `void addGameStage(String var0)`
@@ -95,15 +95,6 @@ Gets the username of the player that sent the message.
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -111,6 +102,15 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `Object exit(Object var0)`

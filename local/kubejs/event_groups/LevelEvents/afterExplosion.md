@@ -23,20 +23,20 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
 | getAffectedEntities |  |  | EntityArrayList | ✘ |
 | removeAffectedEntity | Entity |  | void | ✘ |
 | removeAllAffectedEntities |  |  | void | ✘ |
 | removeAllAffectedBlocks |  |  | void | ✘ |
 | removeAffectedBlock | BlockContainerJS |  | void | ✘ |
+| getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
 | removeKnockback |  |  | void | ✘ |
-| getLevel |  |  | Level | ✘ |
-| getZ |  |  | double | ✘ |
 | getPosition |  |  | Vec3 | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getY |  |  | double | ✘ |
-| getX |  |  | double | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
+| getZ |  |  | double | ✘ |
+| getX |  |  | double | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -47,11 +47,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
-
-- `List<BlockContainerJS> getAffectedBlocks()`
-```
-Gets a list of all blocks affected by the explosion.
-```
 
 - `EntityArrayList getAffectedEntities()`
 ```
@@ -84,6 +79,11 @@ Remove all blocks from the list of affected blocks.
 
 ```
 Remove a block from the list of affected blocks.
+```
+
+- `List<BlockContainerJS> getAffectedBlocks()`
+```
+Gets a list of all blocks affected by the explosion.
 ```
 
 - `void removeKnockback()`

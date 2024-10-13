@@ -1,0 +1,8 @@
+{
+	"favorites": [
+		"{data:{Count:1b,id:\"minecraft:painting\",tag:{EntityTag:{variant:\"supplementaries:bombs\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"quark:hollow_birch_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}

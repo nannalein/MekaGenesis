@@ -5,10 +5,10 @@
     "biomancy",
     "crafttweaker",
     "create",
-    "create_new_age",
     "thermal",
     "immersiveengineering",
     "mekanism",
+    "create_new_age",
     "ad_astra"
   ],
   "stoneStrata": [
@@ -23,6 +23,7 @@
     "forge:nuggets/{material}",
     "forge:oil",
     "forge:fuels/bio",
+    "forge:salt",
     "forge:dusts/{material}",
     "forge:gears/{material}",
     "forge:gems/{material}",
@@ -37,6 +38,7 @@
   ],
   "materials": [
     "aeternium",
+    "salt",
     "aluminum",
     "amber",
     "apatite",
@@ -49,6 +51,7 @@
     "cinnabar",
     "coal",
     "coal_coke",
+    "oil",
     "cobalt",
     "constantan",
     "bio_fuel",

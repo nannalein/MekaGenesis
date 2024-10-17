@@ -498,6 +498,21 @@ event.replaceInput(
 	I: "mekanism:elite_induction_provider"
   });
 
+//Changing how mekanism starts
+
+event.custom({"type":"biomancy:bio_forging",
+    "bio_forge_tab":"biomancy:components",
+    "ingredients":
+    [
+    {"count":16,"tag":"forge:nuggets/iron"},
+    {"count":6,"item":"biomancy:bone_fragments"}
+
+    ],
+    "nutrientsCost":1,"result":{"count": 3, "item": "kubejs:alloy_bone"}});
+
+//Changing Backpacks
+
+event.remove({output: "bakery:sandwich"})
 
 //removing compressing recipes
 

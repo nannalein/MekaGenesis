@@ -1,5 +1,6 @@
 ServerEvents.tags('item', event => {
     event.add("forge:fuels/bio", "biomancy:organic_matter")
+    event.add("forge:salt", "meadow:alpine_salt")
     event.add("forge:wires/copper", "create_new_age:copper_wire")
     event.add("forge:wires/iron", "create_new_age:overcharged_iron_wire")
     event.add("forge:wires/gold", "create_new_age:overcharged_golden_wire")

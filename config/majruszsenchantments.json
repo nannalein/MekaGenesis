@@ -18,7 +18,7 @@
       "dodge_chance_per_level": 0.125
     },
     "enlightenment": {
-      "is_enabled": true,
+      "is_enabled": false,
       "experience_multiplier_per_level": 0.125
     },
     "fishing_fanatic": {

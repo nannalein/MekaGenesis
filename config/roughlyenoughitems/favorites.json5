@@ -1,7 +1,8 @@
 {
 	"favorites": [
-		"{data:{Count:1b,id:\"minecraft:painting\",tag:{EntityTag:{variant:\"supplementaries:bombs\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Count:1b,id:\"quark:hollow_birch_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+		"{data:{id:\"mekanism:nuclear_waste\",type:\"mekanism:jei_plugin_jei_compat_gasstack\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{id:\"mekanism:polonium\",type:\"mekanism:jei_plugin_jei_compat_gasstack\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"mekanismgenerators:bio_generator\",tag:{mekData:{EnergyContainers:[],FluidTanks:[],Items:[],componentUpgrade:{Items:[],upgrades:[]},controlType:0,owner:[I;1927724289,1516585626,-1995190695,1212906732],securityMode:0}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 	],
 	"hiddenFavorites": [],
 	"displays": []

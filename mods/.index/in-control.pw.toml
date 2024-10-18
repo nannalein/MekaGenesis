@@ -1,13 +1,13 @@
-filename = 'incontrol-1.20-9.2.3.jar'
-name = 'In Control!'
-side = 'server'
+filename = 'incontrol-1.20-9.2.7.jar'
+name = 'InControl'
+side = 'both'
 
 [download]
-hash = 'ee0e1425c2ecf71a0c6857bf39c51f5f88a4f72ceb5e02ecdfa83a3338ef8413a5d2d868b02b2a8f1acee74258ba886fda9f29b42d34adfae96efbf8183c0029'
+hash = '570fb027d504b372caf20a15889e0ed8b5e5a5e039f30120e784728b8ff0d4620006b3ec31e5904d03de852c78f4203889522c57e6de98b789e1381610fdcae0'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/KpICtuVx/versions/22IjB8pz/incontrol-1.20-9.2.3.jar'
+url = 'https://cdn.modrinth.com/data/KpICtuVx/versions/JRIPgCDo/incontrol-1.20-9.2.7.jar'
 
 [update.modrinth]
 mod-id = 'KpICtuVx'
-version = '22IjB8pz'
+version = 'JRIPgCDo'

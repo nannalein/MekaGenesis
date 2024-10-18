@@ -202,45 +202,45 @@
 	#MekaSuit Settings
 	[gear.mekasuit]
 		#Energy capacity (Joules) of MekaSuit items without any installed upgrades. Quadratically scaled by upgrades.
-		baseEnergyCapacity = "160000000"
+		baseEnergyCapacity = "560000000"
 		#Amount (joules) of energy the MekaSuit can accept per tick. Quadratically scaled by upgrades.
 		chargeRate = "10000000"
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to jump motion.
-		baseJumpEnergyUsage = "1000"
+		baseJumpEnergyUsage = "7000"
 		#Energy usage (Joules) per second of the MekaSuit when flying with the Elytra Unit.
-		elytraEnergyUsage = "32000"
+		elytraEnergyUsage = "224000"
 		#Energy usage (Joules) of MekaSuit when lessening a potion effect.
-		energyUsagePotionTick = "40000"
+		energyUsagePotionTick = "280000"
 		#Energy cost/multiplier in Joules for reducing magic damage via the inhalation purification unit. Energy cost is: MagicDamage * energyUsageMagicPrevent. (1 MagicDamage is 1 half heart).
-		energyUsageMagicReduce = "1000"
+		energyUsageMagicReduce = "7000"
 		#Energy cost/multiplier in Joules for reducing fall damage with MekaSuit Boots. Energy cost is: FallDamage * freeRunnerFallEnergyCost. (1 FallDamage is 1 half heart)
 		energyUsageFall = "50"
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to sprint motion.
-		energyUsageSprintBoost = "100"
+		energyUsageSprintBoost = "700"
 		#Energy usage (Joules) of MekaSuit per tick when flying via Gravitational Modulation.
-		energyUsageGravitationalModulation = "1000"
+		energyUsageGravitationalModulation = "7000"
 		#Charge rate of inventory items (Joules) per tick.
-		inventoryChargeRate = "10000"
+		inventoryChargeRate = "70000"
 		#Solar recharging rate (Joules) of helmet per tick, per upgrade installed.
-		solarRechargingRate = "500"
+		solarRechargingRate = "4500"
 		#Energy usage (Joules) of MekaSuit per tick of using vision enhancement.
-		energyUsageVisionEnhancement = "500"
+		energyUsageVisionEnhancement = "4500"
 		#Energy usage (Joules) of MekaSuit per tick of using hydrostatic repulsion.
-		energyUsageHydrostaticRepulsion = "500"
+		energyUsageHydrostaticRepulsion = "4500"
 		#Energy usage (Joules) of MekaSuit per half-food of nutritional injection.
-		energyUsageNutritionalInjection = "20000"
+		energyUsageNutritionalInjection = "140000"
 		#Energy usage (Joules) of MekaSuit per unit of damage applied.
-		energyUsageDamage = "100000"
+		energyUsageDamage = "700000"
 		#Energy usage (Joules) of MekaSuit per tick of attracting a single item.
-		energyUsageItemAttraction = "250"
+		energyUsageItemAttraction = "1750"
 		#Should the Gravitational Modulation unit give off vibrations when in use.
 		gravitationalVibrations = true
 		#Maximum amount of Nutritional Paste storable by the nutritional injection unit.
 		#Range: > 1
-		nutritionalMaxStorage = 128000
+		nutritionalMaxStorage = 4000
 		#Rate at which Nutritional Paste can be transferred into the nutritional injection unit.
 		#Range: > 1
-		nutritionalTransferRate = 256
+		nutritionalTransferRate = 20
 		#Maximum amount of Hydrogen storable in the jetpack unit.
 		#Range: 1 ~ 9223372036854775807
 		jetpackMaxStorage = 48000
@@ -249,36 +249,36 @@
 		jetpackTransferRate = 256
 		#Armor value of MekaSuit Helmets.
 		#Range: > 0
-		helmetArmor = 3
+		helmetArmor = 5
 		#Armor value of MekaSuit BodyArmor.
 		#Range: > 0
-		bodyArmorArmor = 8
+		bodyArmorArmor = 10
 		#Armor value of MekaSuit Pants.
 		#Range: > 0
-		pantsArmor = 6
+		pantsArmor = 8
 		#Armor value of MekaSuit Boots.
 		#Range: > 0
-		bootsArmor = 3
+		bootsArmor = 5
 		#Toughness value of the MekaSuit.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		toughness = 3.0
+		toughness = 5.0
 		#Knockback resistance value of the MekaSuit.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		knockbackResistance = 0.10000000149011612
+		knockbackResistance = 0.15
 
 		[gear.mekasuit.damage_absorption]
 			#Percent of damage taken from falling that can be absorbed by MekaSuit Boots when they have enough power.
 			#Range: 0.0 ~ 1.0
-			fallDamageReductionRatio = 1.0
+			fallDamageReductionRatio = 0.9
 			#Percent of damage taken from magic damage that can be absorbed by MekaSuit Helmet with Purification unit when it has enough power.
 			#Range: 0.0 ~ 1.0
-			magicDamageReductionRatio = 1.0
+			magicDamageReductionRatio = 0.0
 			#Percent of damage taken from other non explicitly supported damage types that don't bypass armor when the MekaSuit has enough power and a full suit is equipped.
 			#Note: Support for specific damage types can be added by adding an entry for the damage type in the damageReductionRatio config.
 			#Range: 0.0 ~ 1.0
-			unspecifiedDamageReductionRatio = 1.0
+			unspecifiedDamageReductionRatio = 0.8
 			#Map representing the percent of damage from different damage types that can be absorbed by the MekaSuit when there is enough power and a full suit is equipped.
 			#Values may be in the range [0.0, 1.0].
 			#See the #mekainsm:mekasuit_always_supported damage type tag for allowing damage that bypasses armor to be blocked.
-			damageReductionRatio = ["minecraft:cactus,1.0", "minecraft:cramming,1.0", "minecraft:dragon_breath,1.0", "minecraft:dry_out,1.0", "minecraft:fall,1.0", "minecraft:falling_anvil,1.0", "minecraft:falling_block,1.0", "minecraft:falling_stalactite,1.0", "minecraft:fly_into_wall,1.0", "minecraft:freeze,1.0", "minecraft:generic,1.0", "minecraft:hot_floor,1.0", "minecraft:in_fire,1.0", "minecraft:in_wall,1.0", "minecraft:lava,1.0", "minecraft:lightning_bolt,1.0", "minecraft:on_fire,1.0", "minecraft:sonic_boom,0.75", "minecraft:stalagmite,1.0", "minecraft:sweet_berry_bush,1.0", "minecraft:wither,1.0"]
+			damageReductionRatio = ["minecraft:cactus,1.0", "minecraft:cramming,0.0", "minecraft:dragon_breath,0.8", "minecraft:dry_out,0.8", "minecraft:fall,0.9", "minecraft:falling_anvil,0.25", "minecraft:falling_block,0.25", "minecraft:falling_stalactite,0.4", "minecraft:fly_into_wall,0.5", "minecraft:freeze,1.0", "minecraft:generic,0.9", "minecraft:hot_floor,0.2", "minecraft:in_fire,0.2", "minecraft:in_wall,0.0", "minecraft:lava,0.2", "minecraft:lightning_bolt,0.4", "minecraft:on_fire,0.2", "minecraft:sonic_boom,0.25", "minecraft:stalagmite,1.0", "minecraft:sweet_berry_bush,0.0", "minecraft:wither,0.0"]
 

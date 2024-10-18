@@ -1,11 +1,11 @@
 
 ["Skill Points"]
 	#Range: 1 ~ 1000
-	"Maximum skill points" = 85
+	"Maximum skill points" = 40
 	#Range: > 0
 	"First skill point cost" = 15
 	#Range: > 0
-	"Last skill point cost" = 1400
+	"Last skill point cost" = 3500
 	#You can set cost for each skill point instead
 	"Use skill points costs array" = false
 	#This list's size must be equal to maximum skill points.

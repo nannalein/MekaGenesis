@@ -510,9 +510,27 @@ event.custom({"type":"biomancy:bio_forging",
     ],
     "nutrientsCost":1,"result":{"count": 3, "item": "kubejs:alloy_bone"}});
 
-//Changing Backpacks
+//Changing Backpack
 
-event.remove({output: "bakery:sandwich"})
+event.remove({output:"simplybackpacks:uncommonbackpack"})
+event.remove({output:"simplybackpacks:rarebackpack"})
+event.shaped("simplybackpacks:uncommonbackpack",[
+    'GGG',
+    'GBG',
+    'GGG'
+], {
+    G:"forge:ingots/gold",
+    B:"simplybackpacks:commonbackpack"
+})
+
+event.shaped("simplybackpacks:rarebackpack",[
+    'GGG',
+    'GBG',
+    'GGG'
+], {
+    G:"minecraft:diamond",
+    B:"simplybackpacks:uncommonbackpack"
+})
 
 //removing compressing recipes
 
@@ -673,9 +691,9 @@ event.custom({
         "output":{"item": "ad_astra:cheese"}});
 
     event.custom({"type":"mekanism:nucleosynthesizing",
-        "duration":300,"gasInput":{"amount":1,"gas":"ad_astra:cheese"},
+        "duration":300,"gasInput":{"amount":1,"gas": "mekanism:antimatter"},
         "itemInput":{"ingredient":{"item": "minecraft:sponge"}},
-        "output":{"item": "minecraft:sponge"}});
+        "output":{"item": "ad_astra:cheese"}});
 
 
 })

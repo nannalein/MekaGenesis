@@ -1,13 +1,13 @@
-filename = 'create-1.20.1-0.5.1.f.jar'
+filename = 'create-1.20.1-0.5.1.i.jar'
 name = 'Create'
 side = 'both'
 
 [download]
-hash = '3fee3c26ebbfdfd59e1371ab73ba1f61b44ef6d0'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '0560ec6826e0c07be271a6bbbe3f551576977a5289ebc574b4f37074de8e71d493eab5bf762b0787c1f98386a37e92bbd2631a911f8a7f4b2b833876f03d4c56'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LNytGWDc/versions/9df9xn5Z/create-1.20.1-0.5.1.i.jar'
 
-[update.curseforge]
-file-id = 4835191
-project-id = 328085
+[update.modrinth]
+mod-id = 'LNytGWDc'
+version = '9df9xn5Z'

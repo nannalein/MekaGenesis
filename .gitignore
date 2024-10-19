@@ -18,6 +18,7 @@ usercache.json
 servers.dat
 servers.dat_old
 hotbar.nbt
+TrashSlotSaveState.json
 knownkeys.txt
 options.txt
 patchouli_data.json
@@ -25,3 +26,5 @@ rhino.local.properties
 .qmenu_opened.marker
 fabricloader.log
 .vscode/settings.json
+paragliderSettings.nbt
+heracles_options.json

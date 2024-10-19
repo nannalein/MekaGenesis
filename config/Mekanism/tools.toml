@@ -299,7 +299,7 @@
 	[tools.bronze]
 		#Base attack damage of Bronze items.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		bronzeAttackDamage = 2.0
+		bronzeAttackDamage = 1.0
 		#Maximum durability of Bronze shields.
 		#Range: > 0
 		bronzeShieldDurability = 403
@@ -312,7 +312,7 @@
 		#Attack speed of Bronze shovels.
 		bronzeShovelAtkSpeed = -3.0
 		#Attack damage modifier of Bronze axes.
-		bronzeAxeDamage = 7.0
+		bronzeAxeDamage = 5.0
 		#Attack speed of Bronze axes.
 		bronzeAxeAtkSpeed = -3.0
 		#Attack damage modifier of Bronze pickaxes.
@@ -457,14 +457,14 @@
 	[tools.osmium]
 		#Base attack damage of Osmium items.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		osmiumAttackDamage = 4.0
+		osmiumAttackDamage = 1.0
 		#Maximum durability of Osmium shields.
 		#Range: > 0
 		osmiumShieldDurability = 672
 		#Attack damage modifier of Osmium swords.
 		osmiumSwordDamage = 3.0
 		#Attack speed of Osmium swords.
-		osmiumSwordAtkSpeed = -2.4000000953674316
+		osmiumSwordAtkSpeed = -3.4000000953674316
 		#Attack damage modifier of Osmium shovels.
 		osmiumShovelDamage = 1.5
 		#Attack speed of Osmium shovels.
@@ -472,11 +472,11 @@
 		#Attack damage modifier of Osmium axes.
 		osmiumAxeDamage = 8.0
 		#Attack speed of Osmium axes.
-		osmiumAxeAtkSpeed = -3.299999952316284
+		osmiumAxeAtkSpeed = -5.299999952316284
 		#Attack damage modifier of Osmium pickaxes.
 		osmiumPickaxeDamage = 1.0
 		#Attack speed of Osmium pickaxes.
-		osmiumPickaxeAtkSpeed = -2.799999952316284
+		osmiumPickaxeAtkSpeed = -3.799999952316284
 		#Attack damage modifier of Osmium hoes.
 		osmiumHoeDamage = -4.0
 		#Attack speed of Osmium hoes.
@@ -485,16 +485,16 @@
 		#Range: > 1
 		osmiumToolMaxUses = 1024
 		#Efficiency of Osmium tools.
-		osmiumEfficiency = 4.0
+		osmiumEfficiency = 2.5
 		#Attack damage modifier of Osmium paxels.
 		osmiumPaxelDamage = 3.5
 		#Attack speed of Osmium paxels.
-		osmiumPaxelAtkSpeed = -2.4000000953674316
+		osmiumPaxelAtkSpeed = -4.400000095367432
 		#Efficiency of Osmium paxels.
 		osmiumPaxelEfficiency = 4.0
 		#Natural enchantability factor of Osmium paxels.
 		#Range: > 0
-		osmiumPaxelEnchantability = 14
+		osmiumPaxelEnchantability = 0
 		#Maximum durability of Osmium paxels.
 		#Range: > 1
 		osmiumPaxelMaxUses = 2048
@@ -506,31 +506,31 @@
 		osmiumToughness = 3.0
 		#Base armor knockback resistance value of Osmium armor.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		osmiumKnockbackResistance = 0.10000000149011612
+		osmiumKnockbackResistance = 0.25
 		#Maximum durability of Osmium boots.
 		#Range: > 1
-		osmiumBootDurability = 390
+		osmiumBootDurability = 195
 		#Maximum durability of Osmium leggings.
 		#Range: > 1
-		osmiumLeggingDurability = 450
+		osmiumLeggingDurability = 225
 		#Maximum durability of Osmium chestplates.
 		#Range: > 1
 		osmiumChestplateDurability = 480
 		#Maximum durability of Osmium helmets.
 		#Range: > 1
-		osmiumHelmetDurability = 330
+		osmiumHelmetDurability = 165
 		#Protection value of Osmium boots.
 		#Range: > 0
-		osmiumBootArmor = 3
+		osmiumBootArmor = 1
 		#Protection value of Osmium leggings.
 		#Range: > 0
-		osmiumLeggingArmor = 6
+		osmiumLeggingArmor = 4
 		#Protection value of Osmium chestplates.
 		#Range: > 0
-		osmiumChestplateArmor = 8
+		osmiumChestplateArmor = 6
 		#Protection value of Osmium helmets.
 		#Range: > 0
-		osmiumHelmetArmor = 4
+		osmiumHelmetArmor = 2
 
 	#Material Settings for Refined Glowstone
 	[tools.refined_glowstone]
@@ -579,7 +579,7 @@
 		refined_glowstonePaxelMaxUses = 768
 		#Natural enchantability factor of Refined Glowstone items.
 		#Range: > 0
-		refined_glowstoneEnchantability = 20
+		refined_glowstoneEnchantability = 48
 		#Base armor toughness value of Refined Glowstone armor.
 		#Range: 0.0 ~ 3.4028234663852886E38
 		refined_glowstoneToughness = 0.0
@@ -694,7 +694,7 @@
 	[tools.steel]
 		#Base attack damage of Steel items.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		steelAttackDamage = 3.0
+		steelAttackDamage = 2.5
 		#Maximum durability of Steel shields.
 		#Range: > 0
 		steelShieldDurability = 448
@@ -758,14 +758,14 @@
 		steelHelmetDurability = 220
 		#Protection value of Steel boots.
 		#Range: > 0
-		steelBootArmor = 3
+		steelBootArmor = 2.5
 		#Protection value of Steel leggings.
 		#Range: > 0
-		steelLeggingArmor = 6
+		steelLeggingArmor = 5.5
 		#Protection value of Steel chestplates.
 		#Range: > 0
-		steelChestplateArmor = 8
+		steelChestplateArmor = 7.5
 		#Protection value of Steel helmets.
 		#Range: > 0
-		steelHelmetArmor = 3
+		steelHelmetArmor = 2.5
 

@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | hide | Object, Object |  | void | ✘ |
 | hideAll |  |  | void | ✘ |
 | hideAll | Object |  | void | ✘ |
-| getAllEntryValues |  |  | List<T> | ✘ |
 | hideNoFilter | Object |  | void | ✘ |
+| getAllEntryValues |  |  | List<T> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

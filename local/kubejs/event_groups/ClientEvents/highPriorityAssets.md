@@ -25,9 +25,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | addLang | String, String |  | void | ✘ |
 | stencil | ResourceLocation, String, JsonObject |  | void | ✘ |
 | addModel | String, ResourceLocation, Consumer<ModelGenerator> |  | void | ✘ |
+| defaultItemModel | ResourceLocation |  | void | ✘ |
 | addMultipartBlockState | ResourceLocation, Consumer<MultipartBlockStateGenerator> |  | void | ✘ |
 | defaultHandheldItemModel | ResourceLocation |  | void | ✘ |
-| defaultItemModel | ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

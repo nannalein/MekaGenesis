@@ -1,0 +1,28 @@
+[
+    {
+        "key": "unbound_stonecutter/inert",
+        "group": "state"
+    },
+    {
+        "key": "unbound_stonecutter/echo_shard",
+        "group": "state",
+        "aspects": {
+            "empowered": 1
+        },
+        "effects": {
+            "strikingPickaxe": 1,
+            "sweepingStrike": 1
+        },
+        "tools": {
+            "pickaxe_dig": [
+                0,
+                5
+            ]
+        },
+        "models": [
+            {
+                "location": "tetra:item/module/sword/blade/unbound_stonecutter/echo_shard"
+            }
+        ]
+    }
+]

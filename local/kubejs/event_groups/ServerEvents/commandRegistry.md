@@ -27,8 +27,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getRegistry |  |  | CommandBuildContext | ✘ |
 | getCommands |  |  | ClassWrapper<Commands> | ✘ |
 | getBuiltinSuggestions |  |  | ClassWrapper<SharedSuggestionProvider> | ✘ |
-| isForMultiPlayer |  |  | boolean | ✘ |
 | isForSinglePlayer |  |  | boolean | ✘ |
+| isForMultiPlayer |  |  | boolean | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

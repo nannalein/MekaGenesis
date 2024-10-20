@@ -16,9 +16,9 @@ ServerEvents.recipes(event => {
         'ICI',
         'III'
     ],{
-         I: "forge:ingots/iron",
+         I: "#forge:ingots/iron",
          S: "kubejs:solenoid",
-         C: "forge:circuits/basic"
+         C: "#forge:circuits/basic"
     });
 
     event.shaped("minecraft:nether_star", [
@@ -55,26 +55,6 @@ ServerEvents.recipes(event => {
     event.shaped("9x born_in_chaos_v1:diamond_termite_shard", ["minecraft:diamond"]);
 
     //Making the amnesia scroll craftable becauseeeeee I'm a lil' stinker
-
-    event.shaped("skilltree:amnesia_scroll", [
-		'CNR',
-		'IZS',
-		'DPL'
-	], {
-    C:"minecraft:chicken",
-    N:"minecraft:nether_star",
-    R:"minecraft:rotten_flesh",
-    I:"minecraft:pufferfish",
-    Z:"minecraft:paper",
-    S:"minecraft:spider_eye",
-    D:"minecraft:red_mushroom",
-    P:"minecraft:poisonous_potato",
-    L:"minecraft:wither_rose"
-	});
-
-    event.shapeless("skilltree:amnesia_scroll",
-    ["minecraft:paper",
-    "mekanism:pellet_antimatter"]);
 
     //changing gunpowder recipie 
 
@@ -519,8 +499,20 @@ event.shaped("simplybackpacks:uncommonbackpack",[
     'GBG',
     'GGG'
 ], {
-    G:"forge:ingots/gold",
+    G:"#forge:ingots/gold",
     B:"simplybackpacks:commonbackpack"
+})
+
+event.remove({output:"simplybackpacks:commonbackpack"})
+event.shaped("simplybackpacks:commonbackpack",[
+    'S S',
+    'WLW',
+    'LCL'
+], {
+    W:"#minecraft:wool",
+    S: "#forge:string",
+    C: "#forge:chests",
+    L:"#forge:leather"
 })
 
 event.shaped("simplybackpacks:rarebackpack",[
@@ -530,6 +522,18 @@ event.shaped("simplybackpacks:rarebackpack",[
 ], {
     G:"minecraft:diamond",
     B:"simplybackpacks:uncommonbackpack"
+})
+
+//Sadle
+
+event.shaped("minecraft:saddle",[
+    'LS ',
+    'LLL',
+    'LNL'
+], {
+    L: "minecraft:leather",
+    S: "minecraft:string",
+    N: "#forge:nuggets/iron"
 })
 
 //removing compressing recipes

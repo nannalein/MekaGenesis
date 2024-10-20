@@ -20,17 +20,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| groupEntries | ResourceLocation, Component, ResourceLocation, Object |  | void | ✘ |
 | groupItems | ResourceLocation, Component, Ingredient |  | void | ✘ |
-| groupFluids | ResourceLocation, Component, FluidStackJS[] |  | void | ✘ |
-| groupSameItem | ResourceLocation, Component, ItemStack |  | void | ✘ |
-| groupAnyIf | ResourceLocation, Component, Predicate<EntryStack<?>> |  | void | ✘ |
-| groupEntriesIf | ResourceLocation, Component, ResourceLocation, Predicate |  | void | ✘ |
-| groupItemsIf | ResourceLocation, Component, Predicate<ItemStack> |  | void | ✘ |
-| groupSameFluid | ResourceLocation, Component, FluidStackJS |  | void | ✘ |
-| groupFluidsIf | ResourceLocation, Component, Predicate<FluidStackJS> |  | void | ✘ |
-| groupItemsByTag | ResourceLocation, Component, ResourceLocation |  | void | ✘ |
 | groupFluidsByTag | ResourceLocation, Component, ResourceLocation |  | void | ✘ |
+| groupSameItem | ResourceLocation, Component, ItemStack |  | void | ✘ |
+| groupSameFluid | ResourceLocation, Component, FluidStackJS |  | void | ✘ |
+| groupAnyIf | ResourceLocation, Component, Predicate<EntryStack<?>> |  | void | ✘ |
+| groupItemsByTag | ResourceLocation, Component, ResourceLocation |  | void | ✘ |
+| groupFluidsIf | ResourceLocation, Component, Predicate<FluidStackJS> |  | void | ✘ |
+| groupFluids | ResourceLocation, Component, FluidStackJS[] |  | void | ✘ |
+| groupItemsIf | ResourceLocation, Component, Predicate<ItemStack> |  | void | ✘ |
+| groupEntriesIf | ResourceLocation, Component, ResourceLocation, Predicate |  | void | ✘ |
+| groupEntries | ResourceLocation, Component, ResourceLocation, Object |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

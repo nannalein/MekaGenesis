@@ -1,5 +1,6 @@
 
 
 ServerEvents.recipes(event => {
-    event.remove({input: "#forge:ingots/steel", mod: "mekanismtools", not: {output: "mekanismtools:steel_shield"}})
+    event.remove({output: "mekanismgenerators:module_geothermal_generator_unit"})
+    event.remove({output: "mekanismgenerators:module_solar_recharging_unit"})
 })

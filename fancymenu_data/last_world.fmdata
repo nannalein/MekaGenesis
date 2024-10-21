@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = C:/Users/MIK/AppData/Roaming/PrismLauncher/instances/MekaGenesis/minecraft/saves/New World (6)
-}
-

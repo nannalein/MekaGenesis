@@ -1,0 +1,34 @@
+[
+    {
+        "modules": [
+            "double/basic_pickaxe",
+            "double/basic_pickaxe"
+        ],
+        "sameVariant": true,
+        "tools": {
+            "pickaxe_dig": 1
+        }
+    },
+    {
+        "modules": [
+            "double/basic_pickaxe",
+            "double/basic_adze"
+        ],
+        "sameVariant": true,
+        "tools": {
+            "pickaxe_dig": 1,
+            "shovel_dig":1,
+            "axe_dig":1
+        }
+    },
+    {
+        "modules": [
+            "double/basic_hammer",
+            "double/basic_hammer"
+        ],
+        "sameVariant": true,
+        "tools": {
+            "hammer_dig": 1
+        }
+    }
+]

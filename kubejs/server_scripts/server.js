@@ -217,6 +217,7 @@ event.replaceOutput(
     event.remove({input:"mekanism:elite_infusing_factory"});
     event.remove({input:"mekanism:elite_enriching_factory"});
     event.remove({input:"mekanism:elite_smelting_factory"});
+    event.remove({input:"mekanism:elite_sawing_factory"});
     event.remove({input:"mekanism:elite_crushing_factory"});
     event.remove({input:"mekanism:elite_compressing_factory"});
     event.remove({input:"mekanism:elite_combining_factory"});

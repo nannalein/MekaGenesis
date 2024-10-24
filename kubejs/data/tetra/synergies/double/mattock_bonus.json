@@ -1,0 +1,11 @@
+[{
+    "modules": [
+        "double/basic_pickaxe",
+        "double/adze"
+    ],
+    "tools": {
+        "pickaxe_dig": 1,
+        "shovel_dig":1,
+        "axe_dig":1
+    }
+}]

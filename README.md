@@ -1,4 +1,4 @@
-# READ ME IS A WIP
+# README IS A WIP
 
 
 # CREDITS:

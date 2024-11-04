@@ -21,8 +21,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getInput |  |  | String | ✘ |
-| getException |  |  | Throwable | ✘ |
 | setException | Throwable |  | void | ✘ |
+| getException |  |  | Throwable | ✘ |
 | setParseResults | ParseResults<CommandSourceStack> |  | void | ✘ |
 | getParseResults |  |  | ParseResults<CommandSourceStack> | ✘ |
 | getCommandName |  |  | String | ✘ |

@@ -10,7 +10,7 @@
 	#Range: > 100
 	Knockback = 200
 	#Should fire last forever on the player until doused manually?
-	Burns = true
+	Burns = false
 	#Should neutral mobs be hostile to the player?
 	Angry = false
 	#Should neutral mobs be hostile to the player in the end as well?

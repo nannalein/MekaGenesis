@@ -317,7 +317,6 @@ event.shapeless("irons_spellbooks:common_ink", [
     "minecraft:glass_bottle",
     "bloodmagic:plantoil",
     "supplementaries:ash",
-    "minecraft:feather",
     "irons_spellbooks:arcane_essence"
 ]);
 
@@ -332,12 +331,10 @@ event.shapeless("1x irons_spellbooks:arcane_essence", [
     "sons_of_sins:ether_ashes",
     "sons_of_sins:ether_ashes",
     "sons_of_sins:ether_ashes",
-    "sons_of_sins:ether_ashes",
-    "sons_of_sins:ether_ashes",
-    "sons_of_sins:ether_ashes",
-    "sons_of_sins:ether_ashes",
     "sons_of_sins:ether_ashes"
 ]);
+
+event.remove({output: "tombstone:book_of_magic_impregnation"})
 
 event.shaped("minecraft:chest", [
     'PPP',
@@ -543,26 +540,6 @@ event.shaped("minecraft:saddle",[
   event.remove({type: "ad_astra:compressing"})
 
 //Making Ender Crop and Ender Tendrils craftable
-
-event.custom({
-    "type": "biomancy:bio_brewing",
-    "ingredients": [
-        {
-            "tag": "forge:ender_pearls"
-        },
-        {
-            "item": "minecraft:end_stone"
-        }
-    ],
-    "nutrientsCost": 2,
-    "processingTime": 120,
-    "reactant": {
-        "tag": "forge:seeds"
-    },
-    "result": {
-        "item": "endercrop:ender_seeds"
-    }
-});
 
 event.custom({
     "type": "biomancy:bio_brewing",

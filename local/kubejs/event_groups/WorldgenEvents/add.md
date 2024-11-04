@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | addSpawn | Consumer<AddSpawnProperties> |  | void | ✘ |
 | addSpawn | BiomeFilter, MobCategory, String |  | void | ✘ |
 | addSpawn | MobCategory, String |  | void | ✘ |
-| addOre | Consumer<AddOreProperties> |  | void | ✘ |
 | addLake | Consumer<AddLakeProperties> |  | void | ✘ |
+| addOre | Consumer<AddOreProperties> |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

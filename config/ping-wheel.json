@@ -6,7 +6,7 @@
   "itemIconVisible": true,
   "directionIndicatorVisible": true,
   "pingSize": 100,
-  "channel": "",
+  "channel": "12",
   "raycastDistance": 1024,
   "safeZoneLeft": 5,
   "safeZoneRight": 5,

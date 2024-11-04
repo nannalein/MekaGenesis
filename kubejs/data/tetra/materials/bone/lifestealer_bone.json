@@ -1,0 +1,29 @@
+{
+    "key": "lifestealer_bone",
+    "category": "bone",
+    "primary": 6.7,
+    "secondary": 2,
+    "tertiary": 7,
+    "durability": 430,
+    "integrityCost": 1,
+    "integrityGain": 7,
+    "magicCapacity": 130,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 4.5,
+    "tints": {
+        "glyph": "282e31",
+        "texture": "282e31"
+    },
+    "textures": [
+    "bone",
+    "crude"
+    ],
+    "material": {
+        "items": [
+            "born_in_chaos_v1:lifestealer_bone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

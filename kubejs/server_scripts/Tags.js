@@ -51,6 +51,7 @@ ServerEvents.tags('item', event => {
     event.add("forge:holds_items", "create:white_toolbox")
     event.add("forge:holds_items", "create:orange_toolbox")
     event.add("forge:holds_items", "create:purple_toolbox")
+    event.remove("forge:bones/wither", "architects_palette:withered_bone")
 
 })  
 

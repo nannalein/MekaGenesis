@@ -1,0 +1,15 @@
+{
+    "tetra.material.dark_metal": "Dark Metal",
+    "tetra.material.dark_metal.prefix": "Dark Metal",
+    "tetra.material.lifestealer_bone": "Lifestealer Bone",
+    "tetra.material.lifestealer_bone.prefix": "Lifestealer Bone",
+    "tetra/schematic/sword/rapier_blade.name": "Rapier blade",
+	"tetra/schematic/sword/rapier_blade.description": "Replace the current sword blade with a rapier, an elegant blade.\n \nMaterial §fhardness§r increases §fdamage§r.",
+	"tetra/schematic/sword/rapier_blade.slot1": "Blade material",
+
+	"tetra.module.sword/rapier_blade.item_name": "Rapier",
+	"tetra.module.sword/rapier_blade.name": "Rapier",
+	"tetra.module.sword/rapier_blade.description": "A light, swift and elegant blade.",
+	"tetra.module.sword/rapier_blade.material_name": "%s rapier",
+	"tetra.module.sword/rapier_blade.prefix": "%s"
+}

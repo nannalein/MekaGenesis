@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "mob": "born_in_chaos_v1:nightmare_stalker",
+        "persecond": 0.1,
+        "attempts": 10
+    }
+]

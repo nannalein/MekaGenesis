@@ -22,11 +22,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getSource |  |  | DamageSource | ✘ |
 | getEntity |  |  | Entity | ✘ |
-| getLootingLevel |  |  | int | ✘ |
+| isRecentlyHit |  |  | boolean | ✘ |
 | getDrops |  |  | List<ItemEntity> | ✘ |
 | addDrop | ItemStack, float |  | ItemEntity | ✘ |
 | addDrop | ItemStack |  | ItemEntity | ✘ |
-| isRecentlyHit |  |  | boolean | ✘ |
+| getLootingLevel |  |  | int | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |

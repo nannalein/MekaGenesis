@@ -3,8 +3,8 @@ StartupEvents.registry("mob_effect", event =>{
     .color(0xaef8f9)
     .beneficial()
     .effectTick(ctx => {
-    ctx.modifyAttribute("minecraft:generic.movement_speed", "identifier", 1, "addition")
-    ctx.modifyAttribute("minecraft:generic.attack_speed", "identifier", 0.75, "addition")
+    ctx.modifyAttribute("minecraft:generic.movement_speed", "identifier", 0.06, "addition")
+    ctx.modifyAttribute("minecraft:generic.attack_speed", "identifier", 0.2, "addition")
     })
   
   })
@@ -15,8 +15,8 @@ StartupEvents.registry("mob_effect", event =>{
     .color(0xffffff)
     .beneficial()
     .effectTick(ctx => {
-    ctx.modifyAttribute("minecraft:generic.movement_speed", "identifier", 0.5, "addition")
-    ctx.modifyAttribute("minecraft:generic.attack_speed", "identifier", 0.25, "addition")
+    ctx.modifyAttribute("minecraft:generic.movement_speed", "identifier", 0.04, "addition")
+    ctx.modifyAttribute("minecraft:generic.attack_speed", "identifier", 0.1, "addition")
     })
   
   })

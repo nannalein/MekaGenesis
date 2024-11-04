@@ -30,8 +30,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getY |  |  | double | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
-| getZ |  |  | double | ✘ |
 | getX |  |  | double | ✘ |
+| getZ |  |  | double | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

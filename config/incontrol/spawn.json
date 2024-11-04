@@ -1,6 +1,45 @@
 [
-    {
-      "mob": "endermanoverhaul:mushroom_fields_enderman",
-      "result": "deny"
-    }
-  ]
+  {
+    "mob": "endermanoverhaul:mushroom_fields_enderman",
+    "result": "deny"
+  },
+
+  
+  {
+    "mob": "born_in_chaos_v1:nightmare_stalker",
+    "minheight": -32,
+    "maxheight": 0,
+    "seesky": false,
+    "block": ["minecraft:deepslate"],
+    "maxlight": 0,
+    "healthmultiply": 0.2,
+    "damagemultiply": 0.5,
+    "result": "allow"
+  },
+  {
+    "mob": "born_in_chaos_v1:nightmare_stalker",
+    "maxheight": -50,
+    "seesky": false,
+    "block": ["minecraft:deepslate"],
+    "maxlight": 0,
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.8,
+    "result": "allow"
+  },
+  {
+    "mob": "born_in_chaos_v1:nightmare_stalker",
+    "minheight": 200,
+    "mintime": 13000,
+    "maxtime": 23000,
+    "biometags": ["minecraft:is_mountain"],
+    "seesky": true,
+    "maxlight": 0,
+    "damagemultiply": 0.6,
+    "result": "allow"
+  },
+  {
+    "mob": "born_in_chaos_v1:nightmare_stalker",
+    "mincount": 7,
+    "result": "deny"
+  }
+]

@@ -1,0 +1,40 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.controls.ControlsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=660154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505154%
+  action = hidebutton
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = vanillabtn:505178
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.controls.ControlsScreen:660154%btnaction_splitter_fm%
+  x = 0
+  width = 150
+  action = addbutton
+  actionid = 473f3bf5-0033-4306-8c24-647c1daeb7e61730046837856
+  y = -24
+  label = Keybinds
+  height = 20
+}
+

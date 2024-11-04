@@ -27,14 +27,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getMessage |  |  | String | ✘ |
-| getEntity |  |  | Entity | ✘ |
-| getComponent |  |  | Component | ✘ |
 | setMessage | Component |  | void | ✘ |
+| getComponent |  |  | Component | ✘ |
+| getEntity |  |  | Player | ✘ |
 | setComponent | Component |  | void | ✘ |
 | getUsername |  |  | String | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
-| addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -53,16 +53,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Gets the message that the player sent.
 ```
 
-- `Entity getEntity()`
-```
-Gets the player that sent the message.
-```
-
-- `Component getComponent()`
-```
-Gets the message that the player sent.
-```
-
 - `void setMessage(Component var0)`
 
   Parameters:
@@ -70,6 +60,16 @@ Gets the message that the player sent.
 
 ```
 Sets the message that the player sent.
+```
+
+- `Component getComponent()`
+```
+Gets the message that the player sent.
+```
+
+- `Player getEntity()`
+```
+Gets the player that sent the message.
 ```
 
 - `void setComponent(Component var0)`
@@ -95,15 +95,6 @@ Gets the username of the player that sent the message.
 Checks if the player has the specified game stage
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
-```
-
 - `void removeGameStage(String var0)`
 
   Parameters:
@@ -111,6 +102,15 @@ Adds the specified game stage to the player
 
 ```
 Removes the specified game stage from the player
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `Object exit(Object var0)`

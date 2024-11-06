@@ -32,12 +32,6 @@ INFUSETYPE.register($EventBuses.getModEventBus('kubejs').get())
       .displayName('§dCrude Living Flesh') //in  game name of fluid
       .rarity("epic")
 
-    event.create('fluid_nutrient_paste')
-    .thinTexture(0xadb169)
-    .bucketColor(0xadb169)
-    .displayName('Nutrient Paste')
-  	.noBucket() // both these methods are 1.18.2+ only
-  	.noBlock() 
 
     })
 
@@ -69,7 +63,7 @@ StartupEvents.registry('item', event => {
 })
 
 ItemEvents.armorTierRegistry(event => {
-  event.add('obsidian', tier => {
+  event.add('refined_obsidian', tier => {
     tier.durabilityMultiplier = 112 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6, 12, 8, 4] // Slot indicies are [FEET, LEGS, BODY, HEAD]
     tier.enchantmentValue = 4

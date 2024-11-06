@@ -489,52 +489,6 @@ event.custom({"type":"biomancy:bio_forging",
     ],
     "nutrientsCost":1,"result":{"count": 3, "item": "kubejs:alloy_bone"}});
 
-//Changing Backpack
-
-event.remove({output:"simplybackpacks:uncommonbackpack"})
-event.remove({output:"simplybackpacks:rarebackpack"})
-event.shaped("simplybackpacks:uncommonbackpack",[
-    'GGG',
-    'GBG',
-    'GGG'
-], {
-    G:"#forge:ingots/gold",
-    B:"simplybackpacks:commonbackpack"
-})
-
-event.remove({output:"simplybackpacks:commonbackpack"})
-event.shaped("simplybackpacks:commonbackpack",[
-    'S S',
-    'WLW',
-    'LCL'
-], {
-    W:"#minecraft:wool",
-    S: "#forge:string",
-    C: "#forge:chests",
-    L:"#forge:leather"
-})
-
-event.shaped("simplybackpacks:rarebackpack",[
-    'GGG',
-    'GBG',
-    'GGG'
-], {
-    G:"minecraft:diamond",
-    B:"simplybackpacks:uncommonbackpack"
-})
-
-//Sadle
-
-event.shaped("minecraft:saddle",[
-    'LS ',
-    'LLL',
-    'LNL'
-], {
-    L: "minecraft:leather",
-    S: "minecraft:string",
-    N: "#forge:nuggets/iron"
-})
-
 //removing compressing recipes
 
   event.remove({output: "ad_astra:compressor"})
@@ -634,7 +588,7 @@ event.custom({
     });
 
     event.remove({output: "mekanismgenerators:bio_generator"})
-    event.shaped("mekanism:crusher", [
+    event.shaped("mekanismgenerators:bio_generator", [
         'RIR',
         'BFB',
         'III'
@@ -644,6 +598,7 @@ event.custom({
         B: "#forge:fuels/bio",
         I: "#forge:ingots/iron"
     });
+
 
 //Antiprotonic Nucleosynthisiser Recepes
 

@@ -1,0 +1,22 @@
+{
+    "type": "simplybackpacks:backpack_upgrade",
+    "category": "misc",
+    "key": {
+      "A": {
+        "item": "simplybackpacks:uncommonbackpack"
+      },
+      "B": {
+        "tag": "forge:ingots/iron"
+      }
+    },
+    "pattern": [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    "result": {
+      "count": 1,
+      "id": "simplybackpacks:rarebackpack"
+    },
+    "show_notification": false
+  }

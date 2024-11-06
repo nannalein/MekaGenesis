@@ -633,7 +633,7 @@ event.custom({
     });
 
     event.remove({output: "mekanismgenerators:bio_generator"})
-    event.shaped("mekanism:crusher", [
+    event.shaped("mekanismgenerators:bio_generator", [
         'RIR',
         'BFB',
         'III'
@@ -643,6 +643,7 @@ event.custom({
         B: "#forge:fuels/bio",
         I: "#forge:ingots/iron"
     });
+
 
 //Antiprotonic Nucleosynthisiser Recepes
 

@@ -20,7 +20,7 @@
                 "tetra:rod/"
             ],
             "effects": {
-                "armorPenetration": 10,
+                "armorPenetration": 5,
                 "shieldbreaker": 1
             },
             "key": "long_handle/",
@@ -35,17 +35,12 @@
                 "breakable": 2
             },
             "extract": {
-                "primaryAttributes": {
-                    "forge:reach_distance": 0.1,
-                    "forge:attack_range": 0.1,
-                    "generic.attack_damage": 0.2
-                },
                 "secondaryAttributes": {
                     "generic.attack_speed": -0.25
                 },
                 "tertiaryAttributes": {
-                    "forge:reach_distance": 0.2,
-                    "forge:attack_range": 0.2
+                    "forge:reach_distance": 0.1,
+                    "forge:attack_range": 0.1
                 },
                 "durability": 0.25,
                 "integrity": 1,

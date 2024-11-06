@@ -334,7 +334,8 @@ event.shapeless("1x irons_spellbooks:arcane_essence", [
     "sons_of_sins:ether_ashes"
 ]);
 
-event.remove({output: "tombstone:book_of_magic_impregnation"})
+event.remove({output: "tombstone:book_of_magic_impregnation"});
+event.remove({output: "tombstone:book_of_scribe"});
 
 event.shaped("minecraft:chest", [
     'PPP',

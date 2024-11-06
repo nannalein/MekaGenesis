@@ -51,6 +51,11 @@ ServerEvents.tags('item', event => {
     event.add("forge:holds_items", "create:white_toolbox")
     event.add("forge:holds_items", "create:orange_toolbox")
     event.add("forge:holds_items", "create:purple_toolbox")
+    event.add("tombstone:enchanted_grave_key_ingredients", "biomancy:exotic_dust")
+    event.add("tombstone:enchanted_grave_key_ingredients", "tombstone:grave_dust")
+    event.add("tombstone:enchanted_grave_key_ingredients", "irons_spellbooks:arcane_essence")
+    event.add("tombstone:enchanted_grave_key_ingredients", "sons_of_sins:ether_ashes")
+    event.add("tombstone:enchanted_grave_key_ingredients", "sons_of_sins:ether_ashes")
     event.remove("forge:bones/wither", "architects_palette:withered_bone")
 
 })  

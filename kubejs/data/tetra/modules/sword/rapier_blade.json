@@ -14,7 +14,7 @@
 			"key": "rapier_blade/",
 			"attributes": {
 				"generic.attack_speed": -1.3,
-				"generic.attack_damage": 0.12
+				"generic.attack_damage": -1.0
 			},
 			"effects": {
 				"armorPenetration": 10
@@ -29,10 +29,10 @@
 			],
 			"extract": {
 				"primaryAttributes": {
-					"generic.attack_damage": 0.7
+					"generic.attack_damage": 0.6
 				},
 				"secondaryEffects": {
-					"armorPenetration": 2
+					"armorPenetration": 2.0
 				},
 				"tertiaryEffects": {
 					"armorPenetration": -1.5

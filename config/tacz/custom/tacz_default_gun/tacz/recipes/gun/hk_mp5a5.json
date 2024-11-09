@@ -1,0 +1,38 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 36
+    },
+    {
+      "item": {
+        "tag": "mekanism:hdpe_sheet"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "mekanism:pellet_polonium"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "bloodmagic:plantoil"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:hk_mp5a5"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 56
+    },
+    {
+      "item": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "mekanism:pellet_polonium"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "bloodmagic:plantoil"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:vector45"
+  }
+}

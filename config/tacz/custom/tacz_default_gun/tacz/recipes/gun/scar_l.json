@@ -1,0 +1,38 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 48
+    },
+    {
+      "item": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "mekanism:pellet_polonium"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "bloodmagic:plantoil"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:scar_l"
+  }
+}

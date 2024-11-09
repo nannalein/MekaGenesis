@@ -1,0 +1,38 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 82
+    },
+    {
+      "item": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "item": "mekanism:ultimate_control_circuit"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "mekanism:pellet_antimatter"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "bloodmagic:plantoil"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:aa12"
+  }
+}

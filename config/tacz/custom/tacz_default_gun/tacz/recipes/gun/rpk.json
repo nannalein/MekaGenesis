@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "mekanism:ultimate_control_circuit"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "mekanism:pellet_antimatter"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "bloodmagic:plantoil"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:rpk",
+    "attachments": {
+      "stock": "tacz:oem_stock_heavy"
+    }
+  }
+}

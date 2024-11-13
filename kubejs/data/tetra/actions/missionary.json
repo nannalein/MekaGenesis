@@ -1,0 +1,62 @@
+[
+    {
+        "key": "missionary_charms",
+        "requirement": {
+            "items": [
+                "born_in_chaos_v1:charmof_endurance"
+            ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:diamond"
+        },
+        "lootTable": "tetra:actions/bolt_salvage"
+    },
+    {
+        "key": "missionary_charms",
+        "requirement": {
+            "items": [
+                "born_in_chaos_v1:charmof_fury"
+            ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:diamond"
+        },
+        "lootTable": "tetra:actions/bolt_salvage"
+    },
+    {
+        "key": "missionary_charms",
+        "requirement": {
+            "items": [
+                "born_in_chaos_v1:charmof_power"
+            ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:diamond"
+        },
+        "lootTable": "tetra:actions/bolt_salvage"
+    },
+    {
+        "key": "missionary_charms",
+        "requirement": {
+            "items": [
+                "born_in_chaos_v1:charmof_resistance"
+            ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:diamond"
+        },
+        "lootTable": "tetra:actions/bolt_salvage"
+    },
+    {
+        "key": "missionary_charms",
+        "requirement": {
+            "items": [
+                "born_in_chaos_v1:charmof_stealth"
+            ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:diamond"
+        },
+        "lootTable": "tetra:actions/bolt_salvage"
+    }
+]

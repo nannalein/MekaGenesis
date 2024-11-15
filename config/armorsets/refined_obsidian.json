@@ -1,0 +1,66 @@
+{
+    "armorSetName": "refined_obsidian",
+    "head": {
+    "itemKey": "kubejs:refined_obsidian_helmet",
+    "mustBeEmpty": false
+    },
+    "chest": {
+    "itemKey": "kubejs:refined_obsidian_chestplate",
+    "mustBeEmpty": false
+    },
+    "legs": {
+    "itemKey": "kubejs:refined_obsidian_leggings",
+    "mustBeEmpty": false
+    },
+    "boots": {
+    "itemKey": "kubejs:refined_obsidian_boots",
+    "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+        {
+          "type": "attribute",
+          "name": "minecraft:generic.movement_speed",
+          "value": -0.025,
+          "modifierUUID": "4b25bc7c-c435-4dbd-a046-f7d035333e43",
+          "description": "-25% Speed",
+          "interactionType": "self",
+          "interactionDuration": 300,
+          "hideBonusDescription": false,
+          "onlyImmuneToNewEffects": false
+        },
+        {
+        "type": "attribute",
+        "name": "minecraft:generic.armor",
+        "value": 8.0,
+        "modifierUUID": "780d9960-40a5-468f-9399-2bf7dcee3210",
+        "description": "+8 Armor",
+        "interactionType": "self",
+        "interactionDuration": 300,
+        "hideBonusDescription": false,
+        "onlyImmuneToNewEffects": false
+        },
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.armor_toughness",
+            "value": 3.0,
+            "modifierUUID": "cf470d8a-50b2-4b6b-8116-449c7078f2b9",
+            "description": "+3 Armor Toughness",
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        },
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.max_health",
+            "value": 20.0,
+            "modifierUUID": "af01956e-a259-4b5a-9749-659110152b4b",
+            "description": "10 Extra Hearts",
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        }
+      ],
+    "hideGeneratedTooltip": false
+}

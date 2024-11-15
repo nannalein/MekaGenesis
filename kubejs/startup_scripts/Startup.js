@@ -9,11 +9,11 @@ const GASES = new $GasDeferredRegister('kubejs')
 const SLURRY = new $SlurryDeferredRegister('kubejs')
 const INFUSETYPE = new $InfuseTypeDeferredRegister('kubejs')
 
-GASES.register('gas_living_flesh', 0xe25960)
+
 INFUSETYPE.register('infuse_living_flesh', 0xe25960)
 INFUSETYPE.register('infuse_nutrient_paste', 0xadb169)
-INFUSETYPE.register('infuse_potassium', 0xfdc2a4)
-GASES.register('gas_nitrogen', 0x87d1fe)
+INFUSETYPE.register('infuse_zinc', 0xb9e9c1)
+
 
 
 
@@ -56,21 +56,21 @@ StartupEvents.registry('item', event => {
   event.create("kubejs:crystal_seed_certus3").texture("kubejs:item/crystal_seed_certus3").displayName("Certus Quartz Seed")
   event.create("kubejs:refined_obsidian_smithing_template").texture("kubejs:item/refined_obsidian_smithing_template").displayName("Refined Obsidian Smithing Template")
   event.create("kubejs:solenoid").texture("kubejs:item/solonoid").displayName("Solenoid")
-  event.create('kubejs:refined_obsidian_boots', 'boots').tier('obsidian')
-  event.create('kubejs:refined_obsidian_leggings', 'leggings').tier('obsidian')
-  event.create('kubejs:refined_obsidian_chestplate', 'chestplate').tier('obsidian')
-  event.create('kubejs:refined_obsidian_helmet', 'helmet').tier('obsidian')
+  event.create('kubejs:refined_obsidian_boots', 'boots').tier('refined_obsidian').texture('kubejs:item/refined_obsidian_boots')
+  event.create('kubejs:refined_obsidian_leggings', 'leggings').tier('refined_obsidian').texture('kubejs:item/refined_obsidian_leggings')
+  event.create('kubejs:refined_obsidian_chestplate', 'chestplate').tier('refined_obsidian').texture('kubejs:item/refined_obsidian_chestplate')
+  event.create('kubejs:refined_obsidian_helmet', 'helmet').tier('refined_obsidian').texture('kubejs:item/refined_obsidian_helmet')
 })
 
 ItemEvents.armorTierRegistry(event => {
   event.add('refined_obsidian', tier => {
     tier.durabilityMultiplier = 112 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [6, 12, 8, 4] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+    tier.slotProtections = [6, 8, 12, 4] // Slot indicies are [FEET, LEGS, BODY, HEAD]
     tier.enchantmentValue = 4
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#forge:ingots/refined_obsidian"
+    tier.repairIngredient = "mekanism:ingot_refined_obsidian"
     tier.toughness = 4.0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.1
+    tier.knockbackResistance = 0.15
   })
 })
 

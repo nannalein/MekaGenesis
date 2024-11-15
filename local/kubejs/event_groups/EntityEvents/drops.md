@@ -24,9 +24,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getEntity |  |  | Entity | ✘ |
 | isRecentlyHit |  |  | boolean | ✘ |
 | getDrops |  |  | List<ItemEntity> | ✘ |
+| getLootingLevel |  |  | int | ✘ |
 | addDrop | ItemStack, float |  | ItemEntity | ✘ |
 | addDrop | ItemStack |  | ItemEntity | ✘ |
-| getLootingLevel |  |  | int | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |

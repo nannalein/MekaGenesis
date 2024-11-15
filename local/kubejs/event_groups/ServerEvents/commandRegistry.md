@@ -26,9 +26,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getArguments |  |  | ClassWrapper<ArgumentTypeWrappers> | ✘ |
 | getCommands |  |  | ClassWrapper<Commands> | ✘ |
 | getRegistry |  |  | CommandBuildContext | ✘ |
+| getBuiltinSuggestions |  |  | ClassWrapper<SharedSuggestionProvider> | ✘ |
 | isForMultiPlayer |  |  | boolean | ✘ |
 | isForSinglePlayer |  |  | boolean | ✘ |
-| getBuiltinSuggestions |  |  | ClassWrapper<SharedSuggestionProvider> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

@@ -26,12 +26,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | add | Ingredient, Object |  | void | ✘ |
-| addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
-| isAlt |  |  | boolean | ✘ |
-| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
-| isShift |  |  | boolean | ✘ |
-| isCtrl |  |  | boolean | ✘ |
 | addToAll | Object |  | void | ✘ |
+| addAdvancedToAll | StaticTooltipHandlerFromJS |  | void | ✘ |
+| addAdvanced | Ingredient, StaticTooltipHandlerFromJS |  | void | ✘ |
+| isCtrl |  |  | boolean | ✘ |
+| isAlt |  |  | boolean | ✘ |
+| isShift |  |  | boolean | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
@@ -52,19 +52,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Adds text to all items matching the ingredient.
 ```
 
-- `void addAdvanced(Ingredient var0, StaticTooltipHandlerFromJS var1)`
+- `void addToAll(Object var0)`
 
   Parameters:
-  - var0: Ingredient
-  - var1: StaticTooltipHandlerFromJS
+  - var0: Object
 
 ```
-Adds a dynamic tooltip handler to all items matching the ingredient.
-```
-
-- `boolean isAlt()`
-```
-Is alt key pressed.
+Adds text to all items.
 ```
 
 - `void addAdvancedToAll(StaticTooltipHandlerFromJS var0)`
@@ -76,9 +70,14 @@ Is alt key pressed.
 Adds a dynamic tooltip handler to all items.
 ```
 
-- `boolean isShift()`
+- `void addAdvanced(Ingredient var0, StaticTooltipHandlerFromJS var1)`
+
+  Parameters:
+  - var0: Ingredient
+  - var1: StaticTooltipHandlerFromJS
+
 ```
-Is shift key pressed.
+Adds a dynamic tooltip handler to all items matching the ingredient.
 ```
 
 - `boolean isCtrl()`
@@ -86,13 +85,14 @@ Is shift key pressed.
 Is control key pressed.
 ```
 
-- `void addToAll(Object var0)`
-
-  Parameters:
-  - var0: Object
-
+- `boolean isAlt()`
 ```
-Adds text to all items.
+Is alt key pressed.
+```
+
+- `boolean isShift()`
+```
+Is shift key pressed.
 ```
 
 - `Object exit(Object var0)`

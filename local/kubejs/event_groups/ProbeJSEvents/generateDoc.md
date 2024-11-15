@@ -22,10 +22,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getProperty | JsonObject |  | AbstractProperty<?> | ✘ |
 | getJavaClass | Class<?> |  | DocumentClass | ✘ |
 | specialType | String, List<Object> |  | DocGenerationEventJS | ✘ |
-| transformDocument | Class<?>, Consumer<DocumentClass> |  | DocGenerationEventJS | ✘ |
-| customSnippet | String, List<String>, List<Object> |  | DocGenerationEventJS | ✘ |
-| customSnippet | String, List<String>, List<Object>, String |  | DocGenerationEventJS | ✘ |
 | transformByName | String, Consumer<DocumentClass> |  | DocGenerationEventJS | ✘ |
+| customSnippet | String, List<String>, List<Object>, String |  | DocGenerationEventJS | ✘ |
+| customSnippet | String, List<String>, List<Object> |  | DocGenerationEventJS | ✘ |
+| transformDocument | Class<?>, Consumer<DocumentClass> |  | DocGenerationEventJS | ✘ |
 | addSnippet | String, List<Object>, String |  | DocGenerationEventJS | ✘ |
 | addSnippet | String, List<Object> |  | DocGenerationEventJS | ✘ |
 | exit | Object |  | Object | ✘ |

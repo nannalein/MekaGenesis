@@ -1,16 +1,12 @@
-# PlayerEvents.advancement
+# LootJS.modifiers
 
 ## Basic info
 
 - Valid script types: [SERVER]
 
-- Has result? ✔
+- Has result? ✘
 
-- Event class: [PlayerAdvancementEventJS](https://github.com/KubeJS-Mods/KubeJS/tree/2001/common/src/main/java/dev/latvian/mods/kubejs/player/PlayerAdvancementEventJS.java)
-
-```
-Invoked when a player gets an advancement.
-```
+- Event class: LootModificationEventJS (third-party)
 
 ### Available fields:
 
@@ -23,14 +19,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getEntity |  |  | Player | ✘ |
-| getAdvancement |  |  | AdvancementJS | ✘ |
-| removeGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| addGameStage | String |  | void | ✘ |
-| getLevel |  |  | Level | ✘ |
-| getServer |  |  | MinecraftServer | ✘ |
+| enableLogging |  |  | void | ✘ |
+| disableLootModification | ResourceLocationFilter[] |  | void | ✘ |
+| addLootTableModifier | ResourceLocationFilter[] |  | LootActionsBuilderJS | ✘ |
+| addLootTypeModifier | LootContextType[] |  | LootActionsBuilderJS | ✘ |
+| disableCreeperHeadDrop |  |  | void | ✘ |
+| addEntityLootModifier | EntityType<?>[] |  | LootActionsBuilderJS | ✘ |
+| addBlockLootModifier | Object |  | LootActionsBuilderJS | ✘ |
+| disableZombieHeadDrop |  |  | void | ✘ |
+| disableSkeletonHeadDrop |  |  | void | ✘ |
+| disableWitherStarDrop |  |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
@@ -40,43 +38,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
-
-- `Player getEntity()`
-```
-Returns the player that got the advancement.
-```
-
-- `AdvancementJS getAdvancement()`
-```
-Returns the advancement that was obtained.
-```
-
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Checks if the player has the specified game stage
-```
-
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
-```
 
 - `Object exit(Object var0)`
 
@@ -137,7 +98,7 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 ### Example script:
 
 ```js
-PlayerEvents.advancement(/* extra_id (optional), */ (event) => {
+LootJS.modifiers((event) => {
 	// This space (un)intentionally left blank
 });
 ```

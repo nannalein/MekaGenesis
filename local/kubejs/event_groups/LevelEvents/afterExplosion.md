@@ -25,18 +25,18 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getAffectedEntities |  |  | EntityArrayList | ✘ |
 | getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
-| removeAffectedBlock | BlockContainerJS |  | void | ✘ |
 | removeAllAffectedEntities |  |  | void | ✘ |
-| removeAllAffectedBlocks |  |  | void | ✘ |
+| removeAffectedBlock | BlockContainerJS |  | void | ✘ |
 | removeAffectedEntity | Entity |  | void | ✘ |
+| removeAllAffectedBlocks |  |  | void | ✘ |
 | removeKnockback |  |  | void | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getPosition |  |  | Vec3 | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getY |  |  | double | ✘ |
-| getLevel |  |  | Level | ✘ |
-| getExploder |  |  | LivingEntity | ✘ |
-| getX |  |  | double | ✘ |
 | getZ |  |  | double | ✘ |
+| getX |  |  | double | ✘ |
+| getExploder |  |  | LivingEntity | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -58,6 +58,11 @@ Gets a list of all entities affected by the explosion.
 Gets a list of all blocks affected by the explosion.
 ```
 
+- `void removeAllAffectedEntities()`
+```
+Remove all entities from the list of affected entities.
+```
+
 - `void removeAffectedBlock(BlockContainerJS var0)`
 
   Parameters:
@@ -67,16 +72,6 @@ Gets a list of all blocks affected by the explosion.
 Remove a block from the list of affected blocks.
 ```
 
-- `void removeAllAffectedEntities()`
-```
-Remove all entities from the list of affected entities.
-```
-
-- `void removeAllAffectedBlocks()`
-```
-Remove all blocks from the list of affected blocks.
-```
-
 - `void removeAffectedEntity(Entity var0)`
 
   Parameters:
@@ -84,6 +79,11 @@ Remove all blocks from the list of affected blocks.
 
 ```
 Remove an entity from the list of affected entities.
+```
+
+- `void removeAllAffectedBlocks()`
+```
+Remove all blocks from the list of affected blocks.
 ```
 
 - `void removeKnockback()`

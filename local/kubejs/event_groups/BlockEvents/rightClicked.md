@@ -23,15 +23,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getBlock |  |  | BlockContainerJS | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | Entity | ✘ |
-| getFacing |  |  | Direction | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getHand |  |  | InteractionHand | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
+| getFacing |  |  | Direction | ✘ |
 | removeGameStage | String |  | void | ✘ |
-| addGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -44,24 +44,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `BlockContainerJS getBlock()`
-```
-The block that was right clicked.
-```
-
 - `ItemStack getItem()`
 ```
 The position of the block that was right clicked.
 ```
 
-- `Entity getEntity()`
+- `LivingEntity getEntity()`
 ```
 The player that right clicked the block.
-```
-
-- `Direction getFacing()`
-```
-The face of the block being right clicked.
 ```
 
 - `InteractionHand getHand()`
@@ -69,13 +59,14 @@ The face of the block being right clicked.
 The hand that was used to right click the block.
 ```
 
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `BlockContainerJS getBlock()`
 ```
-Checks if the player has the specified game stage
+The block that was right clicked.
+```
+
+- `Direction getFacing()`
+```
+The face of the block being right clicked.
 ```
 
 - `void removeGameStage(String var0)`
@@ -85,6 +76,15 @@ Checks if the player has the specified game stage
 
 ```
 Removes the specified game stage from the player
+```
+
+- `boolean hasGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Checks if the player has the specified game stage
 ```
 
 - `void addGameStage(String var0)`

@@ -37,25 +37,25 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | stage | RecipeFilter, String |  | void | ✘ |
 | custom | JsonObject |  | RecipeJS | ✘ |
 | printTypes |  |  | void | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
 | getRecipes |  |  | Map<String, Object> | ✘ |
+| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
 | addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
+| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
 | customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| handler$cbn000$injectRecipes | RecipeManager, Map, CallbackInfo |  | void | ✘ |
 | getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
 | runInParallel | Runnable |  | void | ✔ |
 | runInParallel | Callable<T> |  | T | ✔ |
 | countRecipes | RecipeFilter |  | int | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
 | forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
-| printAllTypes |  |  | void | ✘ |
-| setItemErrors | boolean |  | void | ✘ |
+| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
 | printExamples | String |  | void | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
-| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
-| handler$bkc000$sliceanddice$injectRecipes | RecipeManager, Map, CallbackInfo |  | void | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
+| setItemErrors | boolean |  | void | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
+| printAllTypes |  |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

@@ -29,6 +29,14 @@ StartupEvents.registry("mob_effect", event =>{
       }
     })
   })
+
+  ItemEvents.modification(event => {
+    event.modify("createbb:white_meth", item => {
+      item.foodProperties = food => {
+        food.fastToEat(true)
+      }
+    })
+  })
   
     ItemEvents.modification(event => {
       event.modify("ae2:singularity", item => {

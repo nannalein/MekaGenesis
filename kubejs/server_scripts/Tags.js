@@ -58,6 +58,9 @@ ServerEvents.tags('item', event => {
     event.add("tombstone:enchanted_grave_key_ingredients", "sons_of_sins:ether_ashes")
     event.add("kubejs:teleport_focus", "mekanism:teleportation_core")
     event.add("kubejs:teleport_focus", "ae2:singularity")
+    event.add("biomancy:cannot_be_eaten_by_cradle", "jecalculation:item_calculator_craft")
+    event.add("biomancy:cannot_be_eaten_by_cradle", "jecalculation:item_calculator_math")
+    event.add("biomancy:cannot_be_eaten_by_cradle", "compactmachines:personal_shrinking_device")
     event.remove("forge:bones/wither", "architects_palette:withered_bone")
 
 })  

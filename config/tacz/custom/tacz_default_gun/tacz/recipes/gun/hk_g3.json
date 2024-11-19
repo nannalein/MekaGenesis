@@ -2,9 +2,9 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/steel"
+        "item": "mekanism:ingot_steel"
       },
-      "count": 72
+      "count": 82
     },
     {
       "item": {
@@ -20,21 +20,15 @@
     },
     {
       "item": {
-        "item": "mekanism:alloy_reinforced"
-      },
-      "count": 6
-    },
-    {
-      "item": {
         "item": "mekanism:pellet_polonium"
       },
-      "count": 8
+      "count": 10
     },
     {
       "item": {
         "item": "bloodmagic:plantoil"
       },
-      "count": 16
+      "count": 14
     }
   ],
   "result": {

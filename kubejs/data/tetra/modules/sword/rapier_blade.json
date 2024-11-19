@@ -41,7 +41,8 @@
 				"integrity": -1,
 				"magicCapacity": 1.5,
 				"glyph": {
-					"textureLocation": "tetra:textures/gui/rapier.png"
+                    "textureX": 1,
+                    "textureY": 16
 				},
 				"availableTextures": [ "metal", "shiny", "grainy", "crude" ],
 				"models": [{

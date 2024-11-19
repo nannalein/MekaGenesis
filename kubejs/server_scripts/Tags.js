@@ -56,6 +56,8 @@ ServerEvents.tags('item', event => {
     event.add("tombstone:enchanted_grave_key_ingredients", "irons_spellbooks:arcane_essence")
     event.add("tombstone:enchanted_grave_key_ingredients", "sons_of_sins:ether_ashes")
     event.add("tombstone:enchanted_grave_key_ingredients", "sons_of_sins:ether_ashes")
+    event.add("kubejs:teleport_focus", "mekanism:teleportation_core")
+    event.add("kubejs:teleport_focus", "ae2:singularity")
     event.remove("forge:bones/wither", "architects_palette:withered_bone")
 
 })  
@@ -68,4 +70,5 @@ ServerEvents.tags('fluid', event => {
 ServerEvents.tags('block', event => {
     event.add("mekanism:miner_blacklist", "minecraft:ancient_debris")
     event.add("mekanism:miner_blacklist", "irons_spellbooks:arcane_debris")
+    event.remove("forge:gravel", "regions_unexplored:ash")
 })

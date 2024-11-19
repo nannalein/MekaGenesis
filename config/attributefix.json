@@ -22,6 +22,17 @@
         "value": 512
       }
     },
+    "gundurability:handling": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "attributeslib:ghost_health": {
       "enabled": false,
       "min": {
@@ -253,6 +264,17 @@
         "value": 100
       }
     },
+    "tacz:tacz.bullet_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "irons_spellbooks:summon_damage": {
       "enabled": false,
       "min": {
@@ -350,6 +372,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "parcool:stamina_recovery": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:zombie.spawn_reinforcements": {
@@ -451,17 +484,6 @@
         "value": 2048
       }
     },
-    "reach-entity-attributes:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
@@ -482,6 +504,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "tetra:ability_cooldown": {
@@ -550,22 +583,22 @@
         "value": 64
       }
     },
-    "reach-entity-attributes:reach": {
+    "puffish_attributes:player.stamina": {
       "enabled": false,
       "min": {
-        "default": -1024,
-        "value": -1024
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
         "value": 1024
       }
     },
-    "puffish_attributes:player.stamina": {
+    "reach-entity-attributes:reach": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": -1024,
+        "value": -1024
       },
       "max": {
         "default": 1024,
@@ -900,6 +933,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "parcool:max_stamina": {
+      "enabled": false,
+      "min": {
+        "default": 10,
+        "value": 10
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:horse.jump_strength": {

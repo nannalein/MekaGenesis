@@ -2,7 +2,7 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/steel"
+        "item": "mekanism:ingot_steel"
       },
       "count": 24
     },
@@ -16,13 +16,13 @@
       "item": {
         "item": "mekanism:pellet_polonium"
       },
-      "count": 4
+      "count": 2
     },
     {
       "item": {
-        "item": "mekanism:alloy_infused"
+        "item": "mekanism:alloy_reinforced"
       },
-      "count": 4
+      "count": 2
     },
     {
       "item": {

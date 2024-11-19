@@ -6,7 +6,7 @@
 	#Colors for every 10 hearts (not counting the default red)
 	#All values are written as hexadecimal RGB color in '#RRGGBB' format
 	#Default: ["#F06E14", "#F5DC23", "#2DB928", "#1EAFBE", "#7346E1", "#FA7DEB", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF"]
-	colors = ["#cc0f0f", "#990b0b", "#660808", "#330404", "#000000", "#EBEBFF", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF"]
+	colors = ["#cc0f0f", "#990000", "#660808", "#330404", "#000000", "#EBEBFF", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF"]
 	#Two alternating colors while poisoned
 	#There can be one color in case vanilla poisoned heart is wanted
 	#Default: ["#739B00"]

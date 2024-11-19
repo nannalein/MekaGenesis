@@ -6,10 +6,16 @@
     "tetra/schematic/sword/rapier_blade.name": "Rapier blade",
 	"tetra/schematic/sword/rapier_blade.description": "Replace the current sword blade with a rapier, an elegant blade.\n \nMaterial §fhardness§r increases §fdamage§r.",
 	"tetra/schematic/sword/rapier_blade.slot1": "Blade material",
-
 	"tetra.module.sword/rapier_blade.item_name": "Rapier",
 	"tetra.module.sword/rapier_blade.name": "Rapier",
 	"tetra.module.sword/rapier_blade.description": "A light, swift and elegant blade.",
 	"tetra.module.sword/rapier_blade.material_name": "%s rapier",
-	"tetra.module.sword/rapier_blade.prefix": "%s"
+	"tetra.module.sword/rapier_blade.prefix": "%s",
+	"tetra.break_charmof_power.label": "Shatter",
+	"tetra.break_charmof_resistance.label": "Shatter",
+	"tetra.break_charmof_stealth.label": "Shatter",
+	"tetra.break_charmof_endurance.label": "Shatter",
+	"tetra.break_charmof_fury.label": "Shatter",
+	"tooltip.translation.spacecatasb.settitle.refined_obsidian": "Refined Obsidian",
+	"tooltip.translation.spacecatasb.settitle.dark_metal": "Dark Metal"
 }

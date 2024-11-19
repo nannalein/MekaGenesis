@@ -28,8 +28,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getEntity |  |  | Entity | ✘ |
 | getPlayer |  |  | LocalPlayer | ✘ |
 | removeGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -61,15 +61,6 @@ Whether the debug info should be rendered.
 Removes the specified game stage from the player
 ```
 
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Checks if the player has the specified game stage
-```
-
 - `void addGameStage(String var0)`
 
   Parameters:
@@ -77,6 +68,15 @@ Checks if the player has the specified game stage
 
 ```
 Adds the specified game stage to the player
+```
+
+- `boolean hasGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`

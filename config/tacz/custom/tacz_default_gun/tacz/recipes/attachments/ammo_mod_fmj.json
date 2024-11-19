@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "mekanism:pellet_polonium"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_fmj"
+  }
+}

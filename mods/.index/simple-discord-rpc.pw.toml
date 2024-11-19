@@ -1,13 +1,13 @@
-filename = 'SimpleRPC-forge-1.20-3.2.4.jar'
-name = 'Simple Discord RPC'
-side = 'client'
+filename = 'SimpleRPC-Universal-3.3.3.jar'
+name = 'Simple RPC'
+side = 'both'
 
 [download]
-hash = '80cb072b8886c05151f0a909b0c562de71d9d499b2b891ab9b531382c7cbf6bfcd91ade11286b6bee56f0d047eb4dcea37b33d900ba0aa2ba0db80102528c3be'
+hash = '96edb1ef3383492da22b290a9dfe74218911a1e605453498f217edf1dd9e2cbfb75735d7d3f6eead3509867a8d8456708e233b5835436cf53f58ec098eef6762'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ObXSoyrn/versions/B7eLRz3F/SimpleRPC-forge-1.20-3.2.4.jar'
+url = 'https://cdn.modrinth.com/data/ObXSoyrn/versions/kgFckjwV/SimpleRPC-Universal-3.3.3.jar'
 
 [update.modrinth]
 mod-id = 'ObXSoyrn'
-version = 'B7eLRz3F'
+version = 'kgFckjwV'

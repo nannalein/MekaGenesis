@@ -1,13 +1,13 @@
-filename = 'nbtexporter-1.20-1.2.jar'
+filename = 'nbtexporter-1.20-2.0.1.jar'
 name = 'NBT Exporter'
-side = 'client'
+side = 'both'
 
 [download]
-hash = 'e08d9c0bbf4d55596166313d6b38fe7ac3847fcb6c15b2a837f4077dafc6520f9eee3f06b1f9310dbab6b3b2c978babde68b4341aa5db781fe64222e81ff7cc8'
+hash = 'c2e8d511a781bf63addb3604e82bc631e14d7039f2bd292f5fa6cb221f468143c6bc2c354129cbbe1ea5f30ea93acd9110398e5fbd5774382a191b6f02fc7f22'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/wkOIQwq8/versions/OTeIAcwL/nbtexporter-1.20-1.2.jar'
+url = 'https://cdn.modrinth.com/data/wkOIQwq8/versions/9leAKIO1/nbtexporter-1.20-2.0.1.jar'
 
 [update.modrinth]
 mod-id = 'wkOIQwq8'
-version = 'OTeIAcwL'
+version = '9leAKIO1'

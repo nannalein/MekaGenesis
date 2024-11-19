@@ -1,0 +1,26 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "mekanism:ingot_steel"
+      },
+      "count": 22
+    },
+    {
+      "item": {
+        "item": "mekanism:alloy_reinforced"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "mekanism:pellet_polonium"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:extended_mag_2"
+  }
+}

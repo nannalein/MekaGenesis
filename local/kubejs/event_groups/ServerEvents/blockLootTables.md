@@ -21,8 +21,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getType |  |  | String | ✘ |
 | build | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
-| modifyBlock | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
 | addBlock | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
+| modifyBlock | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
 | getDirectory |  |  | String | ✘ |
 | addSimpleBlock | BlockStatePredicate, ItemStack |  | void | ✘ |
 | addSimpleBlock | BlockStatePredicate |  | void | ✘ |

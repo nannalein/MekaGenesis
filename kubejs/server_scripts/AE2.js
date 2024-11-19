@@ -1,11 +1,12 @@
 ServerEvents.recipes(event => {
 
-    event.shapeless("ae2:fluix_covered_cable", [
+    event.shapeless("3x ae2:fluix_covered_cable", [
         "#forge:ingots/plastic",
-        "ae2:fluix_glass_cable",
+        "#ae2:glass_cable",
+        "#ae2:glass_cable",
+        "#ae2:glass_cable"
     ]);
-
-    event.remove({input: "minecraft:glowstone", output: "ae2:fluix_smart_cable"})
+    event.remove({id: "ae2:network/cables/smart_fluix"})
     event.shaped("8x ae2:fluix_smart_cable", [
         'CCC',
         'CBC',
@@ -15,8 +16,8 @@ ServerEvents.recipes(event => {
         B: "mekanism:basic_control_circuit"
     });
 
-    event.remove({input: "minecraft:glowstone", output: "ae2:fluix_smart_dense_cable"})
-    event.shaped("8x ae2:fluix_smart_dense_cable", [
+    event.remove({id: "ae2:network/cables/dense_smart_fluix"})
+    event.shaped("8x ae2:fluix_smart_dense_cable" [
         'CCC',
         'CBC',
         'CCC'

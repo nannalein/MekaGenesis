@@ -16,13 +16,8 @@
                                     "function": "set_count",
                                     "count": {
                                         "min": 3,
-                                        "max": 5
+                                        "max": 8
                                     }
-                                },
-                                {
-                                    "function": "minecraft:apply_bonus",
-                                    "enchantment": "minecraft:fortune",
-                                    "formula": "minecraft:ore_drops"
                                 }
                             ]
                         }

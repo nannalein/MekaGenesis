@@ -20,11 +20,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | remove | ResourceLocation, ResourceLocation[] |  | void | ✘ |
-| removeFromAll | ResourceLocation[] |  | void | ✘ |
-| getDisplaysFor | ResourceLocation |  | List<?> | ✘ |
-| getCategoryIds |  |  | Collection<ResourceLocation> | ✘ |
 | getCategories |  |  | CategoryRegistry | ✘ |
 | getDisplays |  |  | DisplayRegistry | ✘ |
+| getCategoryIds |  |  | Collection<ResourceLocation> | ✘ |
+| getDisplaysFor | ResourceLocation |  | List<?> | ✘ |
+| removeFromAll | ResourceLocation[] |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

@@ -2,27 +2,27 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/steel"
+        "item": "mekanism:ingot_steel"
       },
-      "count": 32
-    },
-        {
-      "item": {
-        "item": "mekanism:hdpe_sheet"
-      },
-      "count": 6
+      "count": 24
     },
     {
       "item": {
         "tag": "minecraft:logs"
       },
-      "count": 10
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "count": 4
     },
     {
       "item": {
         "item": "bloodmagic:plantoil"
       },
-      "count": 6
+      "count": 2
     }
   ],
   "result": {

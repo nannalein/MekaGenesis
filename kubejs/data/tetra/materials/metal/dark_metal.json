@@ -7,7 +7,7 @@
     "durability": 1100,
     "integrityCost": 2,
     "integrityGain": 8,
-    "magicCapacity": 164,
+    "magicCapacity": 108,
     "toolLevel": "minecraft:diamond",
     "toolEfficiency": 7,
     "tints": {
@@ -24,6 +24,6 @@
         ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer_dig": "minecraft:iron"
     }
 }

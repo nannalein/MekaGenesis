@@ -1,17 +1,5 @@
 ServerEvents.recipes(event => {
-
-    event.custom({"type":"mekanism:oxidizing",
-    "input":{"ingredient":{ "item": "biomancy:living_flesh"}},
-    "output":{"amount":100,"gas":"kubejs:gas_living_flesh"}
-});
-
-    event.custom({"type":"mekanism:rotary",
-    "fluidInput":{"amount":1,"fluid":"kubejs:fluid_living_flesh"},
-    "fluidOutput":{"amount":1,"fluid":"kubejs:fluid_living_flesh"},
-    "gasInput":{"amount":1,"gas":"kubejs:gas_living_flesh"},
-    "gasOutput":{"amount":1,"gas":"kubejs:gas_living_flesh"}
-    });
-
+    
     event.custom({"type":"mekanism:infusion_conversion",
     "input":{"ingredient":{"item":"biomancy:living_flesh"}},
     "output":{"amount":100,"infuse_type":"kubejs:infuse_living_flesh"}});

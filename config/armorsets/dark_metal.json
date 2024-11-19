@@ -1,0 +1,55 @@
+{
+    "armorSetName": "dark_metal",
+    "head": {
+    "itemKey": "born_in_chaos_v1:dark_metal_armor_helmet",
+    "mustBeEmpty": false
+    },
+    "chest": {
+    "itemKey": "born_in_chaos_v1:dark_metal_armor_chestplate",
+    "mustBeEmpty": false
+    },
+    "legs": {
+    "itemKey": "born_in_chaos_v1:dark_metal_armor_leggings",
+    "mustBeEmpty": false
+    },
+    "boots": {
+    "itemKey": "born_in_chaos_v1:dark_metal_armor_boots",
+    "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+        {
+          "type": "attribute",
+          "name": "minecraft:generic.movement_speed",
+          "value": -0.01,
+          "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd218",
+          "description": "-10% Speed",
+          "interactionType": "self",
+          "interactionDuration": 300,
+          "hideBonusDescription": false,
+          "onlyImmuneToNewEffects": false
+        },
+        {
+        "type": "attribute",
+        "name": "minecraft:generic.armor",
+        "value": 10.0,
+        "modifierUUID": "0e449f70-451e-4842-af05-1b446ae33a37",
+        "description": "+10 Armor",
+        "interactionType": "self",
+        "interactionDuration": 300,
+        "hideBonusDescription": false,
+        "onlyImmuneToNewEffects": false
+        },
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.armor_toughness",
+            "value": 6.0,
+            "modifierUUID": "0e449f70-451e-4842-af05-1b446ae33a37",
+            "description": "+6 Armor Toughness",
+            "interactionType": "self",
+            "interactionDuration": 300,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        }
+      ],
+    "hideGeneratedTooltip": false
+}

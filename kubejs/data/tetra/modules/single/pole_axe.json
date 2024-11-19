@@ -1,0 +1,64 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "single/head"
+    ],
+    "improvements": [
+        "tetra:single/spearhead/",
+        "tetra:single/shared_head/",
+        "tetra:single/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:metal/"
+            ],
+            "key": "pole_axe/",
+            "attributes": {
+                "generic.attack_speed": -0.9
+            },
+            "effects": {
+                "crushing": 2,
+                "slam": 75,
+                "armorPenetration": 5
+            },
+            "aspects": {
+                "pointy_weapon": 1,
+                "edged_weapon": 1,
+                "blunt_weapon": 1,
+                "breakable": 4
+            },
+            "durability": -40,
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 1.8
+                },
+                "secondaryAttributes": {
+                    "generic.attack_speed": -0.15,
+                    "generic.attack_damage": 0.3,
+                    "armorPenetration": 1.0
+                },
+                "tertiaryEffects": {
+					"armorPenetration": -0.5
+				},
+                "durability": 0.8,
+                "integrity": -2,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 208,
+                    "textureY": 32
+                },
+                "availableTextures": [
+                    "metal"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:item/module/single/head/pole_axe/"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -34,8 +34,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getEntity |  |  | Player | ✘ |
 | removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -72,15 +72,6 @@ The player that sent the packet. Always `Minecraft.player` in `client_scripts`.
 Removes the specified game stage from the player
 ```
 
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Checks if the player has the specified game stage
-```
-
 - `void addGameStage(String var0)`
 
   Parameters:
@@ -88,6 +79,15 @@ Checks if the player has the specified game stage
 
 ```
 Adds the specified game stage to the player
+```
+
+- `boolean hasGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`

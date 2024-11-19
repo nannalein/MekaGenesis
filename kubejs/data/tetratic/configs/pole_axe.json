@@ -1,0 +1,14 @@
+{
+    "Version": 1,
+    "attributemap": {
+        "single/head": {
+            "single/pole_axe": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:halberd"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:brass_ingot"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "kubejs:alloy_lead"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:9mm",
+    "count": 10
+  }
+}

@@ -2,7 +2,7 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/steel"
+        "item": "mekanism:ingot_steel"
       },
       "count": 48
     },

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:brass_ingot"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "kubejs:alloy_super"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:338",
+    "count": 18
+  }
+}

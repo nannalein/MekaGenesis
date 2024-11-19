@@ -54,15 +54,15 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "compactmachines": {
+    "machine": true,
+    "tunnel": true
+  },
   "tombstone": {
     "graves": true
   },
   "mekanismcardboardtooltip": {
     "cardboard_box": true
-  },
-  "endercrop": {
-    "endercrop": true,
-    "endstone": true
   },
   "jade": {
     "coordinates.rel": false,

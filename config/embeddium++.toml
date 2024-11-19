@@ -44,14 +44,14 @@
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 4096
+				cullingMaxDistanceX = 16384
 				#Toggles distance culling for entities, doesn't affect monsters culling
 				#Check the options below
 				enable = true
 				#Configure vertical max distance before cull entities
 				#Value is raw
 				#Range: 0 ~ 512
-				cullingMaxDistanceY = 32
+				cullingMaxDistanceY = 48
 				#List of all Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:bat" - Ignores bats only
@@ -65,11 +65,11 @@
 					cullingMaxDistanceX = 16384
 					#Toggles distance culling for monsters (or hostile entities, whatever you want to call it), doesn't affect neutral/pacific entities
 					#Check the options above
-					enable = false
+					enable = true
 					#Configure vertical max distance before cull monster entities
 					#Value is raw
 					#Range: 0 ~ 512
-					cullingMaxDistanceY = 64
+					cullingMaxDistanceY = 48
 					#List of all monster entities to be ignored by distance culling
 					#Uses ResourceLocation to identify it
 					#Example 1: "minecraft:bat" - Ignores bats only
@@ -80,14 +80,14 @@
 				#Configure horizontal max distance before cull Block entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 4096
+				cullingMaxDistanceX = 16384
 				#Toggles distance culling for Block Entities
 				#Maybe you use another mod for that :(
 				enable = true
 				#Configure vertical max distance before cull Block entities
 				#Value is raw
 				#Range: 0 ~ 512
-				cullingMaxDistanceY = 32
+				cullingMaxDistanceY = 48
 				#List of all Block Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:chest" - Ignores chests only

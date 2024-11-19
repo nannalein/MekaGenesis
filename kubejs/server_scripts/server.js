@@ -50,34 +50,90 @@ ServerEvents.recipes(event => {
     "itemInput":{"ingredient":{"item":"kubejs:alloy_bone"}},
     "output":{"item":"mekanism:alloy_infused"}});
 
+    event.remove({output:"simplybackpacks:commonbackpack"})
+    event.remove({output:"simplybackpacks:uncommonbackpack"})
+    event.remove({output:"simplybackpacks:rarebackpack"})
+
+    event.shaped("simplybackpacks:commonbackpack", [
+        'S S',
+        'WLW',
+        'LCL'
+    ],{
+        S: "minecraft:string",
+        W: "#minecraft:wool",
+        L: "#forge:leather",
+        C: "#forge:chests"
+    })
+
+    event.custom({
+        "type": "simplybackpacks:backpack_upgrade",
+        "category": "misc",
+        "key": {
+            "A": {
+            "type": "simplybackpacks:nbt_target",
+            "item": "simplybackpacks:uncommonbackpack"
+            },
+            "B": {
+            "item": "minecraft:diamond"
+            }
+        },
+        "pattern": [
+            "BBB",
+            "BAB",
+            "BBB"
+        ],
+        "result": {
+            "item": "simplybackpacks:rarebackpack"
+        },
+        "show_notification": false
+        })
+        
+        event.custom({
+        "type": "simplybackpacks:backpack_upgrade",
+        "category": "misc",
+        "key": {
+            "A": {
+            "type": "simplybackpacks:nbt_target",
+            "item": "simplybackpacks:commonbackpack"
+            },
+            "B": {
+            "item": "minecraft:gold_ingot"
+            }
+        },
+        "pattern": [
+            "BBB",
+            "BAB",
+            "BBB"
+        ],
+        "result": {
+            "item": "simplybackpacks:uncommonbackpack"
+        },
+        "show_notification": false
+        })
+
     //Making Diamond sharts craftable
 
     event.shaped("9x born_in_chaos_v1:diamond_termite_shard", ["minecraft:diamond"]);
 
-    //Making the amnesia scroll craftable becauseeeeee I'm a lil' stinker
-
     //changing gunpowder recipie 
 
     event.remove({output: "minecraft:gunpowder", mod: "mekanism"});
-
+    event.remove({id: 'tacz:gunpowder'})
+    event.remove({id: 'alexscaves:gunpowder_from_sulfur'})
     event.shapeless("4x minecraft:gunpowder",
-     ["#forge:dusts/sulfur",
-     "#forge:dusts/charcoal",
-     "#forge:dusts/saltpeter",
-       "#forge:dusts/saltpeter"]);
-    
-    event.custom({"type":"mekanism:injecting",
-    "chemicalInput":{"amount":10,"gas":"kubejs:gas_nitrogen"},
-    "itemInput":{"ingredient":{"item":"kubejs:dust_potassium"}},
-    "output":{"item":"kubejs:dust_saltpeter"}});
+    ["#forge:dusts/sulfur",
+    "#forge:dusts/charcoal",
+    "#forge:dusts/saltpeter",
+    "#forge:dusts/saltpeter"]);
 
+    
 
     event.custom({
         "type": "mekanism:enriching",
         "input": {
+            "amount": 3,
             "ingredient": {
-                "count": 4,
-                "item": "mekanism:bio_fuel"
+                "tag": "forge:fuels/bio"
             }
         },
         "output": {
@@ -85,19 +141,23 @@ ServerEvents.recipes(event => {
         }
     });
 
+    event.blasting("supplementaries:ash", "#minecraft:planks")
+
     event.custom({
-        "type": "mekanism:enriching",
+        "type": "mekanism:crushing",
         "input": {
             "ingredient": {
-                "count": 4,
-                "tag": "forge:ash"
+                "tag": "regions_unexplored:ash"
             }
         },
         "output": {
-            "item": "kubejs:dust_potassium"
+            "item": "supplementaries:ash",
+            "count": 4
         }
     });
 
+    event.remove({output: "supplementaries:lumisene_bottle"})
+    event.remove({output: "supplementaries:lumisene_bucket"})
 
 // Changing how tools are crafted
 
@@ -157,8 +217,6 @@ event.replaceOutput(
     "mekanism:bio_fuel",
     "biomancy:organic_matter"
 )
-
-
 
     event.custom({"type":"biomancy:bio_forging",
     "bio_forge_tab":"biomancy:components",
@@ -291,19 +349,9 @@ event.shaped("2x mekanism:quantum_entangloporter", [
     R: "mekanism:ingot_refined_obsidian",
     C: "mekanism:ultimate_control_circuit",
     A: "mekanism:alloy_atomic",
-    T: "mekanism:teleportation_core"
+    T: ["mekanism:teleportation_core", "ae2:singularity"]
 });
 
-event.shaped("2x mekanism:quantum_entangloporter", [
-    'RCR',
-    'ATA',
-    'RCR'
-], {
-    R: "mekanism:ingot_refined_obsidian",
-    C: "mekanism:ultimate_control_circuit",
-    A: "mekanism:alloy_atomic",
-    T: "ae2:singularity"
-});
 
 //making antimatter cheaper because yes
 event.remove({output:"mekanism:pellet_antimatter"});
@@ -632,6 +680,163 @@ event.custom({
         "duration":300,"gasInput":{"amount":1,"gas": "mekanism:antimatter"},
         "itemInput":{"ingredient":{"item": "minecraft:sponge"}},
         "output":{"item": "ad_astra:cheese"}});
+
+//Changing the Compact Machines to be mekanism friendly
+event.remove({output:"compactmachines:personal_shrinking_device"})
+event.remove({output:"compactmachines:wall"});
+event.remove({output:"compactmachines:machine_tiny"});
+event.remove({output:"compactmachines:machine_small"});
+event.remove({output:"compactmachines:machine_normal"});
+event.remove({output:"compactmachines:machine_large"});
+event.remove({output:"compactmachines:machine_maximum"});
+event.remove({output:"compactmachines:machine_giant"});
+event.shaped("compactmachines:personal_shrinking_device", [
+    ' E ',
+    'ATA',
+    ' E '
+], {
+  E: "mekanism:elite_control_circuit",
+  A: "mekanism:alloy_reinforced",
+  T: "mekanism:portable_teleporter"
+});
+
+event.shaped("16x compactmachines:wall", [
+    'SOS',
+    'O O',
+    'SOS'
+],{
+    S: "#forge:dusts/steel",
+    O: "#forge:dusts/obsidian"
+});
+
+event.shaped("compactmachines:machine_tiny", [
+    'LCL',
+    'CIC',
+    'LCL'
+  ], {
+    L: "compactmachines:wall",
+    C: "mekanism:basic_control_circuit",
+    I: "mekanism:teleportation_core"
+  });
+
+event.shaped("compactmachines:machine_small", [
+    'CWC',
+    'WMW',
+    'CWC'
+], {
+  C:"mekanism:advanced_control_circuit",
+  W:"compactmachines:wall",
+  M:"compactmachines:machine_tiny"
+});
+
+event.shaped("compactmachines:machine_normal", [
+    'CWC',
+    'WMW',
+    'CWC'
+], {
+  C:"mekanism:elite_control_circuit",
+  W:"compactmachines:wall",
+  M:"compactmachines:machine_small"
+});
+
+event.shaped("compactmachines:machine_large", [
+    'CWC',
+    'WMW',
+    'CWC'
+], {
+  C:"mekanism:ultimate_control_circuit",
+  W:"compactmachines:wall",
+  M:"compactmachines:machine_normal"
+});
+
+event.shaped("compactmachines:machine_giant", [
+    'CWC',
+    'WMW',
+    'CWC'
+], {
+  C:"mekanism:hdpe_sheet",
+  W:"mekanism:pellet_polonium",
+  M:"compactmachines:machine_large"
+});
+
+event.custom({"type":"mekanism:nucleosynthesizing",
+"duration":1000,"gasInput":{"amount":4,"gas":"mekanism:antimatter"},
+"itemInput":{"ingredient":{"item":"compactmachines:machine_giant"}},
+"output":{"item":"compactmachines:machine_maximum"}});
+
+event.shaped("compactmachines:machine_maximum", [
+    ' W ',
+    'WMW',
+    ' W '
+], {
+  W:"mekanism:pellet_antimatter",
+  M:"compactmachines:machine_giant"
+});
+
+event.remove({output: "compactmachines:tunnel"})
+event.custom({
+"type": "minecraft:crafting_shapeless",
+"ingredients": [
+    {
+    "item": "mekanism:teleportation_core"
+    },
+    {
+    "item": "minecraft:redstone"
+    }
+],
+"result": {
+    "count": 2,
+    "item": "compactmachines:tunnel",
+    "nbt": {
+    "definition": {
+        "id": "compactmachines:energy"
+    }
+    }
+}
+})
+
+event.custom({
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "item": "mekanism:teleportation_core"
+        },
+        {
+        "item": "mekanism:basic_control_circuit"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "compactmachines:tunnel",
+        "nbt": {
+        "definition": {
+            "id": "compactmachines:item"
+        }
+        }
+    }
+})
+
+event.custom({
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "item": "mekanism:teleportation_core"
+        },
+        {
+        "item": "minecraft:bucket"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "compactmachines:tunnel",
+        "nbt": {
+        "definition": {
+            "id": "compactmachines:fluid"
+        }
+        }
+    }
+})
+
 
 
 })

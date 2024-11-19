@@ -1,0 +1,14 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:barrier"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:sniper_extended_mag_3"
+  }
+}

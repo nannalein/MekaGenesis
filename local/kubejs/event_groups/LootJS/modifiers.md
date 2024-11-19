@@ -22,13 +22,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | enableLogging |  |  | void | ✘ |
 | disableLootModification | ResourceLocationFilter[] |  | void | ✘ |
 | addLootTableModifier | ResourceLocationFilter[] |  | LootActionsBuilderJS | ✘ |
+| addEntityLootModifier | EntityType<?>[] |  | LootActionsBuilderJS | ✘ |
+| disableWitherStarDrop |  |  | void | ✘ |
+| disableZombieHeadDrop |  |  | void | ✘ |
+| addBlockLootModifier | Object |  | LootActionsBuilderJS | ✘ |
 | addLootTypeModifier | LootContextType[] |  | LootActionsBuilderJS | ✘ |
 | disableCreeperHeadDrop |  |  | void | ✘ |
-| addEntityLootModifier | EntityType<?>[] |  | LootActionsBuilderJS | ✘ |
-| addBlockLootModifier | Object |  | LootActionsBuilderJS | ✘ |
-| disableZombieHeadDrop |  |  | void | ✘ |
 | disableSkeletonHeadDrop |  |  | void | ✘ |
-| disableWitherStarDrop |  |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

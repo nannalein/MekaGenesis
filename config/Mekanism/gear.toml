@@ -157,7 +157,7 @@
 	[gear.canteen]
 		#Maximum amount of Nutritional Paste storable by the Canteen.
 		#Range: > 1
-		maxStorage = 64000
+		maxStorage = 1000
 		#Rate at which Nutritional Paste can be transferred into a Canteen.
 		#Range: > 1
 		transferRate = 128

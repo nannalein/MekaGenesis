@@ -35,27 +35,27 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | remove | RecipeFilter |  | void | ✘ |
 | stage | RecipeFilter, String |  | void | ✘ |
-| custom | JsonObject |  | RecipeJS | ✘ |
 | printTypes |  |  | void | ✘ |
+| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
+| custom | JsonObject |  | RecipeJS | ✘ |
 | getRecipes |  |  | Map<String, Object> | ✘ |
 | replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
 | replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
-| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | containsRecipe | RecipeFilter |  | boolean | ✘ |
 | customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
-| handler$cbn000$injectRecipes | RecipeManager, Map, CallbackInfo |  | void | ✘ |
-| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| runInParallel | Runnable |  | void | ✔ |
+| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | runInParallel | Callable<T> |  | T | ✔ |
-| countRecipes | RecipeFilter |  | int | ✘ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
+| runInParallel | Runnable |  | void | ✔ |
 | recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| printExamples | String |  | void | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
+| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
 | setItemErrors | boolean |  | void | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
 | printAllTypes |  |  | void | ✘ |
+| printExamples | String |  | void | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
+| countRecipes | RecipeFilter |  | int | ✘ |
+| handler$cbj000$injectRecipes | RecipeManager, Map, CallbackInfo |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

@@ -2,33 +2,33 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:gems/diamond"
+        "item": "mekanism:ingot_steel"
       },
-      "count": 15
+      "count": 256
     },
     {
       "item": {
-        "tag": "forge:ingots/gold"
+        "item": "mekanism:hdpe_sheet"
       },
-      "count": 60
+      "count": 32
     },
     {
       "item": {
-        "tag": "forge:ingots/netherite"
+        "item": "mekanism:alloy_atomic"
       },
-      "count": 3
+      "count": 24
     },
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "mekanism:pellet_antimatter"
       },
-      "count": 300
+      "count": 4
     },
     {
       "item": {
-        "tag": "forge:rods/blaze"
+        "item": "bloodmagic:plantoil"
       },
-      "count": 5
+      "count": 24
     }
   ],
   "result": {

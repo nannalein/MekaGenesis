@@ -2,21 +2,33 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "mekanism:ingot_steel"
       },
       "count": 36
     },
     {
       "item": {
-        "tag": "forge:gems/lapis"
+        "item": "mekanism:hdpe_sheet"
+      },
+      "count": 14
+    },
+    {
+      "item": {
+        "item": "mekanism:elite_control_circuit"
       },
       "count": 8
     },
     {
       "item": {
-        "tag": "minecraft:logs"
+        "item": "mekanism:pellet_polonium"
       },
-      "count": 6
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "bloodmagic:plantoil"
+      },
+      "count": 10
     }
   ],
   "result": {

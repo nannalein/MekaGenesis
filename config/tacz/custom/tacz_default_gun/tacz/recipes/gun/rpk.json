@@ -2,7 +2,7 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/steel"
+        "item": "mekanism:ingot_steel"
       },
       "count": 64
     },
@@ -10,7 +10,13 @@
       "item": {
         "item": "mekanism:hdpe_sheet"
       },
-      "count": 32
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 12
     },
     {
       "item": {

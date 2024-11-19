@@ -33,16 +33,16 @@ REIEvents.hide('item', event => {
 ItemEvents.tooltip( event => {
 
 	// Add tooltips to items here
-	event.add("compactmachines:tunnel", Text.red("VERY buggy, Use Mekanism Quantum Entangloporter"));
+	event.add("compactmachines:tunnel", "For a less confusing alternitive use a Quantum Entangloporter");
+	event.add(["kubejs:refined_obsidian_boots", "kubejs:refined_obsidian_leggings", "kubejs:refined_obsidian_chestplate", "kubejs:refined_obsidian_helmet"], '"The Type ||| Agis Combat Armor..."')
+	event.add(["born_in_chaos_v1:charmof_endurance", "born_in_chaos_v1:charmof_fury", "born_in_chaos_v1:charmof_power", "born_in_chaos_v1:charmof_resistance", "born_in_chaos_v1:charmof_stealth"], "Can be shattered at a workbench")
 })
 ClientEvents.lang('en_us', event => {
 
 	// Add lang entries here
-    event.add('gas.kubejs.gas_living_flesh', "§dCrude Living Flesh");
     event.add('infuse_type.kubejs.infuse_living_flesh', "§dCrude Living Flesh");
 	event.add('infuse_type.kubejs.infuse_nutrient_paste', "Nutrients");
-	event.add('gas.kubejs.gas_nitrogen', "Nitrogen");
-	event.add('gas.kubejs.gas_potassium', "Potassium");
+	event.add('infuse_type.kubejs.infuse_zinc', "Zinc");
 })
 
 REIEvents.groupEntries(event => {

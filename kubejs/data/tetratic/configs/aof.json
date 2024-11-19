@@ -1,0 +1,14 @@
+{
+    "Version": 1,
+    "attributemap": {
+        "sword/blade": {
+            "sword/rapier_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:spear"
+                    }
+                }
+            }
+        }
+    }
+}

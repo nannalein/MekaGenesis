@@ -1,0 +1,13 @@
+filename = 'Timeless_GoreEngine0.81_1.20.1.jar'
+name = 'Timeless Gore Engine'
+side = 'both'
+
+[download]
+hash = '38362301f255d39861ce991e87724ff1dbcbe448'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5145514
+project-id = 565158

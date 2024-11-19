@@ -1,0 +1,26 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "mekanism:ingot_steel"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "mekanism:alloy_atomic"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "mekanism:pellet_antimatter"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:extended_mag_3"
+  }
+}

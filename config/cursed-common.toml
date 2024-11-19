@@ -21,7 +21,7 @@
 [Benefits]
 	#How much experience the player gains from slain mobs as a percent
 	#Range: > 100
-	Experience = 500
+	Experience = 200
 	#Should the player get unique drops from slain mobs?
 	"Unique Drops" = true
 	#Should the player have an unique fortune level for specific blocks?

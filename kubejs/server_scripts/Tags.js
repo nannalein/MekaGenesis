@@ -61,6 +61,10 @@ ServerEvents.tags('item', event => {
     event.add("biomancy:cannot_be_eaten_by_cradle", "jecalculation:item_calculator_craft")
     event.add("biomancy:cannot_be_eaten_by_cradle", "jecalculation:item_calculator_math")
     event.add("biomancy:cannot_be_eaten_by_cradle", "compactmachines:personal_shrinking_device")
+    event.add("curios:lantern", "minecraft:lantern")
+    event.add("curios:lantern", "chipped:soul_lantern")
+    event.remove("curios:belt", "minecraft:lantern")
+    event.remove("curios:belt", "minecraft:soul_lantern")
     event.remove("forge:bones/wither", "architects_palette:withered_bone")
 
 })  
